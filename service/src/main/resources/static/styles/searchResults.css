@@ -1,0 +1,20 @@
+body, .panel{
+  background:#c0c0c0;
+}
+.gridStyle {
+	border: 1px solid rgb(212, 212, 212);
+}
+
+.krSearchName {
+    background-color: #615066;
+    color: #FFFFFF;
+    font-size: x-large;
+    border: #615066;
+    padding: 3px 10px;
+    margin-left: 0;
+    margin-top: 2px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    font-weight: bold;
+}

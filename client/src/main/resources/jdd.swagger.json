@@ -1,0 +1,563 @@
+{
+	"swagger": "2.0",
+	"info": {
+		"description": "This is a journdoc downloader client",
+		"version": "1.0.0",
+		"title": "JournDoc Downloader Client API",
+		"contact": {
+			"name": "David Skowronski",
+			"url": "http://www.dskow.com",
+			"email": "david@dskow.com"
+		},
+		"license": {
+			"name": "MIT",
+			"url": "https://opensource.org/licenses/MIT"
+		}
+	},
+	"host": "localhost:8080",
+	"basePath": "/v1",
+	"tags": [
+		{
+			"name": "journaldoc-downloader-service",
+			"description": "the jdd API"
+		}
+	],
+	"paths": {
+		"/entrez/eutils/esearch.fcgi": {
+			"get": {
+				"tags": [
+					"JDD"
+				],
+				"summary": "searches journal doc",
+				"description": "searches journal doc. ",
+				"operationId": "jddSearchUsingPOST",
+				"consumes": [
+					"application/json"
+				],
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"name": "db",
+						"in": "query",
+						"description": "a db name.",
+						"required": true,
+						"type": "string"
+					},
+					{
+						"name": "term",
+						"in": "query",
+						"description": "a term.",
+						"required": true,
+						"type": "string"
+					},
+					{
+						"name": "retStart",
+						"in": "query",
+						"description": "a ret Start.",
+						"required": true,
+						"type": "string"
+					},
+					{
+						"name": "retMax",
+						"in": "query",
+						"description": "a retMax.",
+						"required": true,
+						"type": "string"
+					},
+					{
+						"name": "retmode",
+						"in": "query",
+						"description": "an retmode.",
+						"required": true,
+						"type": "string"
+					},
+					{
+						"name": "tool",
+						"in": "query",
+						"description": "a tool name.",
+						"required": true,
+						"type": "string"
+					},
+					{
+						"name": "email",
+						"in": "query",
+						"description": "an email.",
+						"required": true,
+						"type": "string"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "A result of a search",
+						"schema": {
+							"$ref": "#/definitions/ResultC"
+						}
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					}
+				}
+			}
+		},
+		"/entrez/eutils/efetch.fcgi": {
+			"post": {
+				"tags": [
+					"JDD"
+				],
+				"summary": "fetch xml files",
+				"description": "fetch xml files. ",
+				"operationId": "jddEFetchUsingPOST",
+				"consumes": [
+					"application/json"
+				],
+				"produces": [
+					"application/xml"
+				],
+				"parameters": [
+					{
+						"name": "db",
+						"in": "query",
+						"description": "a db name.",
+						"required": true,
+						"type": "string"
+					},
+					{
+						"name": "id",
+						"in": "query",
+						"description": "an id.",
+						"required": true,
+						"type": "string"
+					},
+					{
+						"name": "retmode",
+						"in": "query",
+						"description": "a return mode.",
+						"required": true,
+						"type": "string"
+					},
+					{
+						"name": "rettype",
+						"in": "query",
+						"description": "a return type.",
+						"required": true,
+						"type": "string"
+					},
+					{
+						"name": "tool",
+						"in": "query",
+						"description": "a tool.",
+						"required": true,
+						"type": "string"
+					},
+					{
+						"name": "email",
+						"in": "query",
+						"description": "an email.",
+						"required": true,
+						"type": "string"
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "A result of a fetch",
+						"schema": {
+							"$ref": "#/definitions/FetchResultC"
+						}
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					}
+				}
+			}
+		}
+	},
+	"definitions": {
+		"ResultC": {
+			"type": "object",
+			"properties": {
+				"header": {
+					"$ref": "#/definitions/HeaderC",
+					"description": "A header"
+				},
+				"esearchresult": {
+					"$ref": "#/definitions/SearchResultC",
+					"description": "The search result"
+				}
+			}
+		},
+		"HeaderC": {
+			"type": "object",
+			"properties": {
+				"type": {
+					"type": "string",
+					"description": "A fetch type"
+				},
+				"version": {
+					"type": "string",
+					"description": "A fetch version"
+				}
+			}
+		},
+		"SearchResultC": {
+			"type": "object",
+			"properties": {
+				"count": {
+					"type": "string",
+					"description": "A fetch count"
+				},
+				"retmax": {
+					"type": "string",
+					"description": "The fetch ret max"
+				},
+				"retstart": {
+					"type": "string",
+					"description": "The fetch ret start"
+				},
+				"idlist": {
+					"type": "array",
+					"description": "The fetch id list",
+					"items": {
+						"type": "string"
+					}
+				},
+				"translationset": {
+					"type": "array",
+					"description": "The fetch translation set",
+					"items": {
+						"$ref": "#/definitions/TranslationsetItemC"
+					}
+				},
+				"translationstack": {
+					"type": "array",
+					"description": "The fetch translation set",
+					"items": {
+						"$ref": "#/definitions/TranslationStackItemC"
+					}
+				},
+				"querytranslation": {
+					"type": "string",
+					"description": "The fetch query translation"
+				},
+				"errorlist": {
+					"$ref": "#/definitions/FetchErrorListC",
+					"description": "The fetch error list"
+				},
+				"warninglist": {
+					"$ref": "#/definitions/FetchWarningListC",
+					"description": "The fetch warning list"
+				}
+			}
+		},
+		"TranslationsetItemC": {
+			"type": "object",
+			"properties": {
+				"from": {
+					"type": "string",
+					"description": "A translation from"
+				},
+				"to": {
+					"type": "string",
+					"description": "The translation to"
+				}
+			}
+		},
+		"TranslationStackItemC" : {
+			"type": "object",
+			"properties": {
+				"term": {
+					"type": "string",
+					"description": "A translation stack term"
+				},
+				"field": {
+					"type": "string",
+					"description": "A translation stack field"
+				},
+				"count": {
+					"type": "string",
+					"description": "A translation stack count"
+				},
+				"explode": {
+					"type": "string",
+					"description": "The translation stack explode"
+				}
+			}
+		},
+		"FetchResultItemC": {
+			"type": "object",
+			"properties": {
+				"filename": {
+					"type": "string",
+					"description": "A filename"
+				},
+				"data": {
+					"type": "string",
+					"description": "The search data"
+				}
+			}
+		},
+		"FetchErrorListC": {
+			"type": "object",
+			"properties": {
+				"phrasesnotfound": {
+					"type": "array",
+					"description": "The fetch error phrases not found",
+					"items": {
+						"type": "string"
+					}
+				},
+				"fieldsnotfound": {
+					"type": "array",
+					"description": "The fetch error fields not found",
+					"items": {
+						"type": "string"
+					}
+				}
+			}
+		},
+		"FetchWarningListC": {
+			"type": "object",
+			"properties": {
+				"phrasesignored": {
+					"type": "array",
+					"description": "The fetch warning phrases ignored",
+					"items": {
+						"type": "string"
+					}
+				},
+				"quotedphrasesnotfound": {
+					"type": "array",
+					"description": "The fetch warning quoted phrases not found",
+					"items": {
+						"type": "string"
+					}
+				},
+				"outputmessages": {
+					"type": "array",
+					"description": "The fetch warning output messages",
+					"items": {
+						"type": "string"
+					}
+				}
+			}
+		},
+		"FetchResultC": {
+			"type": "object",
+			"properties": {
+				"PubmedArticleSet": {
+					"$ref": "#/definitions/PubmedArticleSetC",
+					"description": "A header"
+				}
+			}
+		},
+		"PubmedArticleSetC": {
+			"type": "object",
+			"properties": {
+				"PubmedArticle": {
+					"$ref": "#/definitions/PubmedArticleItemC",
+					"description": "A header"
+				}
+			}
+		},
+		"PubmedArticleItemC": {
+			"type": "object",
+			"properties": {
+				"MedlineCitation": {
+					"$ref": "#/definitions/MedlineCitationC",
+					"description": "A header"
+				},
+				"PubmedData": {
+					"$ref": "#/definitions/PubmedArticleItemC",
+					"description": "A header"
+				}
+			}
+		},
+		"MedlineCitationC": {
+			"type": "object",
+			"properties": {
+				"-Status": {
+					"type": "string",
+					"description": "A header"
+				},
+				"-Owner": {
+					"type": "string",
+					"description": "A header"
+				},
+				"PMID": {
+					"$ref": "#/definitions/PMIDC",
+					"description": "A header"
+				},
+				"DateCreated": {
+					"$ref": "#/definitions/DateItemC",
+					"description": "A header"
+				},
+				"DateCompleted": {
+					"$ref": "#/definitions/DateItemC",
+					"description": "A header"
+				},
+				"DateRevised": {
+					"$ref": "#/definitions/DateItemC",
+					"description": "A header"
+				},
+				"Article": {
+					"$ref": "#/definitions/ArticleC",
+					"description": "A header"
+				},
+				"MedlineJournalInfo": {
+					"$ref": "#/definitions/MedlineJournalInfoC",
+					"description": "A header"
+				},
+				"CitationSubset": {
+					"type": "array",
+					"description": "The fetch warning quoted phrases not found",
+					"items": {
+						"type": "string"
+					}
+				},
+				"MeshHeadingList": {
+					"$ref": "#/definitions/MeshHeadingListC",
+					"description": "A header"
+				},
+				"KeywordList": {
+					"$ref": "#/definitions/KeywordListC",
+					"description": "A header"
+				}
+			}
+		},
+		"PMIDC": {
+			"type": "object",
+			"properties": {
+				"MedlineCitation": {
+					"$ref": "#/definitions/MedlineCitationC",
+					"description": "A header"
+				},
+				"PubmedData": {
+					"$ref": "#/definitions/PubmedArticleItemC",
+					"description": "A header"
+				}
+			}
+		},
+		"DateItemC": {
+			"type": "object",
+			"properties": {
+				"MedlineCitation": {
+					"$ref": "#/definitions/MedlineCitationC",
+					"description": "A header"
+				},
+				"PubmedData": {
+					"$ref": "#/definitions/PubmedArticleItemC",
+					"description": "A header"
+				}
+			}
+		},
+		"ArticleC": {
+			"type": "object",
+			"properties": {
+				"MedlineCitation": {
+					"$ref": "#/definitions/MedlineCitationC",
+					"description": "A header"
+				},
+				"PubmedData": {
+					"$ref": "#/definitions/PubmedArticleItemC",
+					"description": "A header"
+				}
+			}
+		},
+		"MedlineJournalInfoC": {
+			"type": "object",
+			"properties": {
+				"MedlineCitation": {
+					"$ref": "#/definitions/MedlineCitationC",
+					"description": "A header"
+				},
+				"PubmedData": {
+					"$ref": "#/definitions/PubmedArticleItemC",
+					"description": "A header"
+				}
+			}
+		},
+		"MeshHeadingListC": {
+			"type": "object",
+			"properties": {
+				"MeshHeading": {
+					"type": "array",
+					"description": "The fetch warning quoted phrases not found",
+					"items": {
+						"$ref": "#/definitions/MeshHeadingItemC"
+					}
+				}
+			}
+		},
+		"MeshHeadingItemC": {
+			"type": "object",
+			"properties": {
+				"DescriptorName": {
+					"$ref": "#/definitions/MeshHeadingIteNameC"
+				},
+				"QualifierName": {
+					"type": "array",
+					"description": "The fetch warning quoted phrases not found",
+					"items": {
+						"$ref": "#/definitions/MeshHeadingIteNameC"
+					}
+				}
+			}
+		},
+		"MeshHeadingIteNameC": {
+			"type": "object",
+			"properties": {
+				"-UI": {
+					"type": "string",
+					"description": "A header"
+				},
+				"-MajorTopicYN": {
+					"type": "string",
+					"description": "A header"
+				},
+				"#text": {
+					"type": "string",
+					"description": "A header"
+				}
+			}
+		},
+		"KeywordListC": {
+			"type": "object",
+			"properties": {
+				"-Owner": {
+					"type": "string",
+					"description": "A header"
+				},
+				"Keyword": {
+					"$ref": "#/definitions/KeywordC",
+					"description": "A header"
+				}
+			}
+		},
+		"KeywordC": {
+			"type": "object",
+			"properties": {
+				"-MajorTopicYN": {
+					"type": "string",
+					"description": "A header"
+				},
+				"#text": {
+					"type": "string",
+					"description": "A header"
+				}
+			}
+		}
+	}
+}

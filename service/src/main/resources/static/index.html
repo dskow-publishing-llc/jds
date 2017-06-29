@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="images/search.ico">
+<link rel="stylesheet" href="styles/lib/bootstrap.min.css">
+<link rel="stylesheet" href="styles/lib/KoGrid.css" />
+<link rel="stylesheet" href="styles/lib/KoReport.css" />
+<link rel="stylesheet" href="styles/reportPage.css">
+<link rel="stylesheet" href="styles/searchResults.css">
+<link rel="stylesheet" href="styles/download.css">
+<title>JournalDoc - Downloader</title>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="page-header" style="padding-bottom: 2%">
+      <h1>JournalDoc Downloader</h1>
+    </div>
+    <div data-bind="with: search">
+      <div class="row searchArea">
+        <ul style="display: block;" data-bind="foreach: journals()">
+          <li class="col-xs-3">
+            <div>
+            <span class="glyphicon glyphicon-remove redIcon" data-bind="click: removeJournal"></span>
+            Name = <span data-bind="html: name"> </span>
+            </div>
+            <div>
+            Database = <span data-bind="html: database"> </span>
+            </div>
+            <div>
+            Data Type = <span data-bind="html: datatype"> </span>
+            Index = <span data-bind="html: retStart"> </span>
+            Count = <span data-bind="html: count"> </span>
+            Max = <span data-bind="html: retMax"> </span>
+            Mode = <span data-bind="html: retmode"> </span>
+            Phase = <span data-bind="html: phase"> </span>
+            <span data-bind="html: error"> </span>
+            </div>
+            <button data-bind="text: pauseButton, click: pause"></button>
+            <div data-bind="progress: { value: value, type: type, text: text, textHidden: textHidden, animated: animated, striped: striped }"></div>
+          </li>
+        </ul>
+      </div>
+      <div class="row">
+        <div class="col-xs-1"></div>
+        <div class="col-xs-11">
+          <form>
+            <label>New Journal</label>
+            <input data-bind="value: newJournal"></input>
+            <label>Database</label>
+            <input type="text" data-bind="value: newDatabase, typeahead: databases"></input>
+            <button style="float: left;" data-bind="click: addJournal, enable: journals().length < 20">Add journal</button>
+          </form>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-1"></div>
+        <div class="col-xs-11">
+          <form>
+          </form>
+          <form>
+            <label>Start Year</label>
+            <input data-bind="value: startRange"></input>
+            <label>End Year</label>
+            <input data-bind="value: endRange"></input>
+            <label>File Name</label>
+            <input data-bind="value: fileName"></input>
+            <button style="float: left;" data-bind="text: searchButton, click: startSearch"></button>
+          </form>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-1"></div>
+        <div class="col-xs-11">
+        <p><h1>Previous Search Results</h1>
+          <ul data-bind="foreach: files()">
+            <li>
+            <a data-bind="attr: { href: 'http://localhost:8080/dskow/' + $data, title: $data},text : $data"></a>
+            </li>
+          </ul>
+        </p>
+        
+        </div>
+      </div>
+    </div>
+    <div class="row warningArea" data-bind="visible: showWarning, html: warningDetails"></div>
+  </div>
+
+  <!-- Bootstrap Requirements -->
+  <script type="text/javascript" src="js/lib/jquery.min.js"></script>
+  <script type="text/javascript" src="js/lib/bootstrap.min.js"></script>
+  <!-- TypeAhead code -->
+  <script type="text/javascript" src="js/lib/bloodhound.js"></script>
+  <script type="text/javascript" src="js/lib/typeahead.bundle.js"></script>
+  <script type="text/javascript" src="js/lib/typeahead.jquery.js"></script>
+  <!-- KnockoutJS code -->
+  <script type="text/javascript" src="js/lib/knockout-3.2.0.js"></script>
+  <script type="text/javascript" src="js/lib/knockstrap.min.js"></script>
+  <script type="text/javascript" src="js/lib/koGrid-2.1.1.js"></script>
+  <script type="text/javascript" src="js/lib/koReport-1.0.0.js"></script>
+  <!-- <script type="text/javascript" src="js/lib/knockout-bootstrap.js"></script> -->
+  <!-- D3 UI code -->
+  <script type="text/javascript" src="js/lib/d3.min.js"></script>
+  <!-- custom code -->
+  <script type="text/javascript" src="js/viewModels.js"></script>
+  <script type="text/javascript">
+      var viewModel = {};
+      var populateViewModel = function() {
+        viewModel = {
+        search : new SearchVm("pubmed", [], [], "2010", "2016", "http://eutils.ncbi.nlm.nih.gov/entrez/eutils/", "SJournalDocDownloader", "david@dskow.com"),
+        showWarning : ko.observable(false),
+        warningDetails : ko.observable("")
+        };
+        ko.applyBindings(viewModel);
+      };
+      window.onload = populateViewModel;
+    </script>
+</body>
+</html>

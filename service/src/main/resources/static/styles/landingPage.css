@@ -1,0 +1,1057 @@
+body, .panel{
+	background:#80ffff;
+}
+.label-title {
+    background-color: #615066;
+}
+.panel-default > .panel-heading {
+    background-color: #615066;
+    color: white;
+}
+.row {
+  margin-right: 0px;
+}
+
+
+#Program+label.ui-state-default {
+	background: url('../images/icons/Steps/Program.png') 50% 50% no-repeat
+		!important;
+	color: transparent;
+  /*box-shadow: 0 0 10px 10px #ed8b5e; */
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#Document+label.ui-state-default {
+	background: url('../images/icons/Steps/Document.png') 50% 50% no-repeat
+		!important;
+	color: transparent;
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#Need+label.ui-state-default {
+	background: url('../images/icons/Steps/Need.png') 50% 50% no-repeat
+		!important;
+	color: transparent;
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#Project+label.ui-state-default {
+	background: url('../images/icons/Steps/Project.png') 50% 50% no-repeat
+		!important;
+	color: transparent;
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+
+
+/* COIs */
+#AdvancedElectronicsCOI+label.ui-state-default {
+	background: url('../images/icons/COIs/AdvancedElectronicsCOI.png') 50%
+		50% no-repeat !important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#AirPlatformsCOI+label.ui-state-default {
+	background: url('../images/icons/COIs/AirPlatformsCOI.png') 50% 50%
+		no-repeat !important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#AutonomyCOI+label.ui-state-default {
+	background: url('../images/icons/COIs/AutonomyCOI.png') 50% 50%
+		no-repeat !important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#Biomedical\(ASBREM\)COI+label.ui-state-default {
+	background: url('../images/icons/COIs/Biomedical(ASBREM)COI.png') 50%
+		50% no-repeat !important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#Command\,Control\,Comms\,Computers\,andIntelligence\(C4I\)COI+label.ui-state-default {
+	background:
+		url('../images/icons/COIs/Command,Control,Comms,Computers,andIntelligence(C4I)COI.png')
+		50% 50% no-repeat !important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#CounterIEDCOI+label.ui-state-default {
+	background: url('../images/icons/COIs/CounterIEDCOI.png') 50% 50%
+		no-repeat !important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#CounterWMDCOI+label.ui-state-default {
+	background: url('../images/icons/COIs/CounterWMDCOI.png') 50% 50%
+		no-repeat !important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#CyberSecurityCOI+label.ui-state-default {
+	background: url('../images/icons/COIs/CyberSecurityCOI.png') 50% 50%
+		no-repeat !important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#ElectronicWarfare\/ElectronicProtectionCOI+label.ui-state-default {
+	background:
+		url('../images/icons/COIs/ElectronicWarfare.png')
+		50% 50% no-repeat !important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#Energy\&PowerTechnologiesCOI+label.ui-state-default {
+	background: url('../images/icons/COIs/Energy&PowerTechnologiesCOI.png')
+		50% 50% no-repeat !important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#EngineeredResilientSystemsCOI+label.ui-state-default {
+	background:
+		url('../images/icons/COIs/EngineeredResilientSystemsCOI.png') 50% 50%
+		no-repeat !important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#Ground\&SeaPlatformsCOI+label.ui-state-default {
+	background: url('../images/icons/COIs/Ground&SeaPlatformsCOI.png') 50%
+		50% no-repeat !important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#HumanSystemsCOI+label.ui-state-default {
+	background: url('../images/icons/COIs/HumanSystemsCOI.png') 50% 50%
+		no-repeat !important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#Materials\&ManufacturingProcessessCOI+label.ui-state-default {
+	background:
+		url('../images/icons/COIs/Materials&ManufacturingProcessessCOI.png')
+		50% 50% no-repeat !important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#Sensors\&ProcessingCOI+label.ui-state-default {
+	background: url('../images/icons/COIs/Sensors&ProcessingCOI.png') 50%
+		50% no-repeat !important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#Space+label.ui-state-default {
+	background: url('../images/icons/COIs/Space.png') 50% 50% no-repeat
+		!important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#WeaponsTechnologiesCOI+label.ui-state-default {
+	background: url('../images/icons/COIs/WeaponsTechnologiesCOI.png') 50%
+		50% no-repeat !important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+
+
+
+/* Organizations */
+#AirForce+label.ui-state-default {
+	background: url('../images/icons/Organizations/AirForce.png') 50% 50%
+		no-repeat !important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#Army+label.ui-state-default {
+	background: url('../images/icons/Organizations/Army.png') 50% 50%
+		no-repeat !important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#Chemical\&BiologicalDefense+label.ui-state-default {
+	background:
+		url('../images/icons/Organizations/Chemical&BiologicalDefense.png')
+		50% 50% no-repeat !important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#DARPA+label.ui-state-default {
+	background: url('../images/icons/Organizations/DARPA.png') 50% 50%
+		no-repeat !important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#MarineCorps+label.ui-state-default {
+	background: url('../images/icons/Organizations/MarineCorps.png') 50% 50%
+		no-repeat !important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#MissileDefenseAgency+label.ui-state-default {
+	background:
+		url('../images/icons/Organizations/MissileDefenseAgency.png') 50% 50%
+		no-repeat !important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#Navy+label.ui-state-default {
+	background: url('../images/icons/Organizations/Navy.png') 50% 50%
+		no-repeat !important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#OfficeofSecretaryofDefense+label.ui-state-default {
+	background:
+		url('../images/icons/Organizations/OfficeofSecretaryofDefense.png')
+		50% 50% no-repeat !important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+
+
+/* Other Organizations */
+#DefenseContractManagementAgency+label.ui-state-default {
+	background:
+		url('../images/icons/Organizations/DefenseContractManagementAgency.png')
+		50% 50% no-repeat !important;
+	color: transparent;
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#DefenseInformationSystemsAgency+label.ui-state-default {
+	background:
+		url('../images/icons/Organizations/DefenseInformationSystemsAgency.png')
+		50% 50% no-repeat !important;
+	color: transparent;
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#DefenseLogisticsAgency+label.ui-state-default {
+	background:
+		url('../images/icons/Organizations/DefenseLogisticsAgency.png') 50%
+		50% no-repeat !important;
+	color: transparent;
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#DefenseSecurityCenter+label.ui-state-default {
+	background:
+		url('../images/icons/Organizations/DefenseSecurityCenter.png') 50% 50%
+		no-repeat !important;
+	color: transparent;
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#DefenseSecurityCooperationAgency+label.ui-state-default {
+	background:
+		url('../images/icons/Organizations/DefenseSecurityCooperationAgency.png')
+		50% 50% no-repeat !important;
+	color: transparent;
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#DefenseTechnicalInformationCenter+label.ui-state-default {
+	background:
+		url('../images/icons/Organizations/DefenseTechnicalInformationCenter.png')
+		50% 50% no-repeat !important;
+	color: transparent;
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#DefenseThreatReductionAgency+label.ui-state-default {
+	background:
+		url('../images/icons/Organizations/DefenseThreatReductionAgency.png')
+		50% 50% no-repeat !important;
+	color: transparent;
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#DoDHumanResourcesActivity+label.ui-state-default {
+	background:
+		url('../images/icons/Organizations/DoDHumanResourcesActivity.png') 50%
+		50% no-repeat !important;
+	color: transparent;
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#JointStaff+label.ui-state-default {
+	background: url('../images/icons/Organizations/JointStaff.png') 50% 50%
+		no-repeat !important;
+	color: transparent;
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#Operational\,Test\&EvaluationDefense+label.ui-state-default {
+	background:
+		url('../images/icons/Organizations/Operational,Test&EvaluationDefense.png')
+		50% 50% no-repeat !important;
+	color: transparent;
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#U\.S\.SpecialOperationsCommand+label.ui-state-default {
+	background:
+		url('../images/icons/Organizations/U.S.SpecialOperationsCommand.png')
+		50% 50% no-repeat !important;
+	color: transparent;
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#WashingtonHeadquartersService+label.ui-state-default {
+	background:
+		url('../images/icons/Organizations/WashingtonHeadquartersService.png')
+		50% 50% no-repeat !important;
+	color: transparent;
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+/* --------------------------------------------- */
+#Program+label.ui-state-active {
+	background: url('../images/icons/checkmark.png') 0% 100% no-repeat, url('../images/icons/Steps/Program.png') 50% 50% no-repeat
+		!important;
+	color: transparent;
+  /*box-shadow: 0 0 10px 10px #ed8b5e; */
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#Document+label.ui-state-active {
+	background: url('../images/icons/checkmark.png') 0% 100% no-repeat, url('../images/icons/Steps/Document.png') 50% 50% no-repeat
+		!important;
+	color: transparent;
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#Need+label.ui-state-active {
+	background: url('../images/icons/checkmark.png') 0% 100% no-repeat, url('../images/icons/Steps/Need.png') 50% 50% no-repeat
+		!important;
+	color: transparent;
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#Project+label.ui-state-active {
+	background: url('../images/icons/checkmark.png') 0% 100% no-repeat, url('../images/icons/Steps/Project.png') 50% 50% no-repeat
+		!important;
+	color: transparent;
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+
+
+/* COIs */
+#AdvancedElectronicsCOI+label.ui-state-active {
+	background: url('../images/icons/checkmark.png') 0% 100% no-repeat, url('../images/icons/COIs/AdvancedElectronicsCOI-dim.png') 50%
+		50% no-repeat !important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#AirPlatformsCOI+label.ui-state-active {
+	background: url('../images/icons/checkmark.png') 0% 100% no-repeat, url('../images/icons/COIs/AirPlatformsCOI-dim.png') 50% 50%
+		no-repeat !important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#AutonomyCOI+label.ui-state-active {
+	background: url('../images/icons/checkmark.png') 0% 100% no-repeat, url('../images/icons/COIs/AutonomyCOI-dim.png') 50% 50%
+		no-repeat !important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#Biomedical\(ASBREM\)COI+label.ui-state-active {
+	background: url('../images/icons/checkmark.png') 0% 100% no-repeat, url('../images/icons/COIs/Biomedical(ASBREM)COI-dim.png') 50%
+		50% no-repeat !important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#Command\,Control\,Comms\,Computers\,andIntelligence\(C4I\)COI+label.ui-state-active {
+	background: url('../images/icons/checkmark.png') 0% 100% no-repeat,
+		url('../images/icons/COIs/Command,Control,Comms,Computers,andIntelligence(C4I)COI-dim.png')
+		50% 50% no-repeat !important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#CounterIEDCOI+label.ui-state-active {
+	background: url('../images/icons/checkmark.png') 0% 100% no-repeat, url('../images/icons/COIs/CounterIEDCOI-dim.png') 50% 50%
+		no-repeat !important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#CounterWMDCOI+label.ui-state-active {
+	background: url('../images/icons/checkmark.png') 0% 100% no-repeat, url('../images/icons/COIs/CounterWMDCOI-dim.png') 50% 50%
+		no-repeat !important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#CyberSecurityCOI+label.ui-state-active {
+	background: url('../images/icons/checkmark.png') 0% 100% no-repeat, url('../images/icons/COIs/CyberSecurityCOI-dim.png') 50% 50%
+		no-repeat !important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#ElectronicWarfare\/ElectronicProtectionCOI+label.ui-state-active {
+	background: url('../images/icons/checkmark.png') 0% 100% no-repeat,
+		url('../images/icons/COIs/ElectronicWarfare-dim.png')
+		50% 50% no-repeat !important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#Energy\&PowerTechnologiesCOI+label.ui-state-active {
+	background: url('../images/icons/checkmark.png') 0% 100% no-repeat, url('../images/icons/COIs/Energy&PowerTechnologiesCOI-dim.png')
+		50% 50% no-repeat !important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#EngineeredResilientSystemsCOI+label.ui-state-active {
+	background: url('../images/icons/checkmark.png') 0% 100% no-repeat,
+		url('../images/icons/COIs/EngineeredResilientSystemsCOI-dim.png') 50% 50%
+		no-repeat !important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#Ground\&SeaPlatformsCOI+label.ui-state-active {
+	background: url('../images/icons/checkmark.png') 0% 100% no-repeat, url('../images/icons/COIs/Ground&SeaPlatformsCOI-dim.png') 50%
+		50% no-repeat !important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#HumanSystemsCOI+label.ui-state-active {
+	background: url('../images/icons/checkmark.png') 0% 100% no-repeat, url('../images/icons/COIs/HumanSystemsCOI-dim.png') 50% 50%
+		no-repeat !important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#Materials\&ManufacturingProcessessCOI+label.ui-state-active {
+	background: url('../images/icons/checkmark.png') 0% 100% no-repeat,
+		url('../images/icons/COIs/Materials&ManufacturingProcessessCOI-dim.png')
+		50% 50% no-repeat !important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#Sensors\&ProcessingCOI+label.ui-state-active {
+	background: url('../images/icons/checkmark.png') 0% 100% no-repeat, url('../images/icons/COIs/Sensors&ProcessingCOI-dim.png') 50%
+		50% no-repeat !important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#Space+label.ui-state-active {
+	background: url('../images/icons/checkmark.png') 0% 100% no-repeat, url('../images/icons/COIs/Space-dim.png') 50% 50% no-repeat
+		!important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#WeaponsTechnologiesCOI+label.ui-state-active {
+	background: url('../images/icons/checkmark.png') 0% 100% no-repeat, url('../images/icons/COIs/WeaponsTechnologiesCOI-dim.png') 50%
+		50% no-repeat !important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+
+
+
+/* Organizations */
+#AirForce+label.ui-state-active {
+	background: url('../images/icons/checkmark.png') 0% 100% no-repeat, url('../images/icons/Organizations/AirForce-dim.png') 50% 50%
+		no-repeat !important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#Army+label.ui-state-active {
+	background: url('../images/icons/checkmark.png') 0% 100% no-repeat, url('../images/icons/Organizations/Army-dim.png') 50% 50%
+		no-repeat !important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#Chemical\&BiologicalDefense+label.ui-state-active {
+	background: url('../images/icons/checkmark.png') 0% 100% no-repeat,
+		url('../images/icons/Organizations/Chemical&BiologicalDefense-dim.png')
+		50% 50% no-repeat !important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#DARPA+label.ui-state-active {
+	background: url('../images/icons/checkmark.png') 0% 100% no-repeat, url('../images/icons/Organizations/DARPA-dim.png') 50% 50%
+		no-repeat !important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#MarineCorps+label.ui-state-active {
+	background: url('../images/icons/checkmark.png') 0% 100% no-repeat, url('../images/icons/Organizations/MarineCorps-dim.png') 50% 50%
+		no-repeat !important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#MissileDefenseAgency+label.ui-state-active {
+	background: url('../images/icons/checkmark.png') 0% 100% no-repeat,
+		url('../images/icons/Organizations/MissileDefenseAgency-dim.png') 50% 50%
+		no-repeat !important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#Navy+label.ui-state-active {
+	background: url('../images/icons/checkmark.png') 0% 100% no-repeat, url('../images/icons/Organizations/Navy-dim.png') 50% 50%
+		no-repeat !important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#OfficeofSecretaryofDefense+label.ui-state-active {
+	background: url('../images/icons/checkmark.png') 0% 100% no-repeat,
+		url('../images/icons/Organizations/OfficeofSecretaryofDefense.png')
+		50% 50% no-repeat !important;
+	color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;  
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+
+
+/* Other Organizations */
+#DefenseContractManagementAgency+label.ui-state-active {
+	background: url('../images/icons/checkmark.png') 0% 100% no-repeat,
+		url('../images/icons/Organizations/DefenseContractManagementAgency.png')
+		50% 50% no-repeat !important;
+	color: transparent;
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#DefenseInformationSystemsAgency+label.ui-state-active {
+	background: url('../images/icons/checkmark.png') 0% 100% no-repeat,
+		url('../images/icons/Organizations/DefenseInformationSystemsAgency.png')
+		50% 50% no-repeat !important;
+	color: transparent;
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#DefenseLogisticsAgency+label.ui-state-active {
+	background: url('../images/icons/checkmark.png') 0% 100% no-repeat,
+		url('../images/icons/Organizations/DefenseLogisticsAgency.png') 50%
+		50% no-repeat !important;
+	color: transparent;
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#DefenseSecurityCenter+label.ui-state-active {
+	background: url('../images/icons/checkmark.png') 0% 100% no-repeat,
+		url('../images/icons/Organizations/DefenseSecurityCenter.png') 50% 50%
+		no-repeat !important;
+	color: transparent;
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#DefenseSecurityCooperationAgency+label.ui-state-active {
+	background: url('../images/icons/checkmark.png') 0% 100% no-repeat,
+		url('../images/icons/Organizations/DefenseSecurityCooperationAgency.png')
+		50% 50% no-repeat !important;
+	color: transparent;
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#DefenseTechnicalInformationCenter+label.ui-state-active {
+	background: url('../images/icons/checkmark.png') 0% 100% no-repeat,
+		url('../images/icons/Organizations/DefenseTechnicalInformationCenter.png')
+		50% 50% no-repeat !important;
+	color: transparent;
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#DefenseThreatReductionAgency+label.ui-state-active {
+	background: url('../images/icons/checkmark.png') 0% 100% no-repeat,
+		url('../images/icons/Organizations/DefenseThreatReductionAgency.png')
+		50% 50% no-repeat !important;
+	color: transparent;
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#DoDHumanResourcesActivity+label.ui-state-active {
+	background: url('../images/icons/checkmark.png') 0% 100% no-repeat,
+		url('../images/icons/Organizations/DoDHumanResourcesActivity.png') 50%
+		50% no-repeat !important;
+	color: transparent;
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#JointStaff+label.ui-state-active {
+	background: url('../images/icons/checkmark.png') 0% 100% no-repeat, url('../images/icons/Organizations/JointStaff.png') 50% 50%
+		no-repeat !important;
+	color: transparent;
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#Operational\,Test\&EvaluationDefense+label.ui-state-active {
+	background: url('../images/icons/checkmark.png') 0% 100% no-repeat,
+		url('../images/icons/Organizations/Operational,Test&EvaluationDefense.png')
+		50% 50% no-repeat !important;
+	color: transparent;
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#U\.S\.SpecialOperationsCommand+label.ui-state-active {
+	background: url('../images/icons/checkmark.png') 0% 100% no-repeat,
+		url('../images/icons/Organizations/U.S.SpecialOperationsCommand.png')
+		50% 50% no-repeat !important;
+	color: transparent;
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}
+
+#WashingtonHeadquartersService+label.ui-state-active {
+	background: url('../images/icons/checkmark.png') 0% 100% no-repeat,
+		url('../images/icons/Organizations/WashingtonHeadquartersService.png')
+		50% 50% no-repeat !important;
+	color: transparent;
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+}

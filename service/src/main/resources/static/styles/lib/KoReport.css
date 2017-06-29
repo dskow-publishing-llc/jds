@@ -1,0 +1,473 @@
+@CHARSET "ISO-8859-1";
+<style>
+/******** Report Global ********/
+.krlabel {
+    display: block;
+    float: left;
+    font-weight: bold;
+    padding-right: 5px;
+}
+.krNoSelect{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/******** Report ********/
+
+.koReport{
+    background-color: rgb(253, 253, 253);
+}
+
+/******** Header ********/
+
+.krGroupPanel{
+    background-color: rgb(234, 234, 234);
+    overflow: hidden;
+  border-bottom: 1px solid rgb(212,212,212);
+}
+
+.krGroupPanelDescription{
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.krGroupList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.krGroupItem {
+  float: left; 
+}
+
+.krGroupElement {
+  float: left;
+  height: 100%; 
+  width: 100%;
+}
+
+.krGroupName {
+    background-color: rgb(247,247,247);
+    border: 1px solid rgb(212,212,212);
+    padding: 3px 10px;
+    float: left;
+    margin-left: 0;
+    margin-top: 2px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.krGroupItem:first-child{
+  margin-left: 2px;
+}
+
+.krRemoveGroup {
+    width: 5px;
+    float: right;
+    -moz-opacity: 0.4;
+    opacity: 0.4;
+    margin-top: -1px;
+    margin-left: 5px;
+}
+.krRemoveGroup:hover {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    -moz-opacity: 0.7;
+    opacity: 0.7;
+}
+.krGroupArrow {
+  width: 0; 
+  height: 0; 
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-left: 6px solid black;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  float: right;
+}
+
+.krTopPanel {
+    position: relative;
+    background-color: rgb(234, 234, 234);
+  border-bottom: 1px solid rgb(212,212,212);
+  margin-right: -2px;
+    z-index: 5; 
+}
+.krHeaderContainer {
+    position: relative;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+.krHeaderScroller {
+  position:absolute;
+}
+.krHeaderSortSection{
+  position:absolute;
+    height: 100px;
+}
+
+.krHeaderCell{
+  border-left: 1px solid rgb(212,212,212);
+    position: absolute;
+    height: 100px;
+}
+
+.krHeaderCell:first-child{
+    border-left: 0;
+}
+
+.krHeaderCell:last-child{
+  border-right: 1px solid rgb(212,212,212);
+}
+
+.krSortButtonUp {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  border-color: gray transparent;
+  border-style: solid;
+  border-width: 0 5px 5px 5px;
+  height: 0;
+  width: 0;
+}
+.krSortButtonDown {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  border-color: gray transparent;
+  border-style: solid;
+  border-width: 5px 5px 0 5px;
+    height: 0;
+  width: 0;
+}
+.krHeaderGrip { 
+    cursor: section-resize; 
+    width: 10px; 
+  right: -5px;
+    top: 0; 
+    height: 100%; 
+    position: absolute; 
+    z-index: 5; 
+}
+.krHeaderText {
+    padding: 5px;
+    box-sizing: border-box;
+    white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    width: 27px;
+}
+
+/******** Viewport ********/
+.krViewport{
+    overflow: auto;
+    min-height: 20px;
+    height: 100%;
+}
+
+.krCanvas{
+    height: 100%;
+    position: relative;
+}
+
+/******** Sections ********/
+.krSection {
+}
+.krSection.even {
+    background-color: rgb(253, 253, 253);
+}
+.krSection.odd {
+    background-color: rgb(253, 253, 253);
+}
+.krSection.selected {
+    background-color: rgb(189, 208, 203);
+}
+
+/******** Cells ********/
+
+.krCell {
+    overflow: hidden; 
+    position: absolute;
+  border-left: 1px solid rgb(212,212,212);
+}
+
+.krCell:first-child{
+  border-left: 0;
+}
+
+.krCell:last-child {
+    border-right: 1px solid rgb(212,212,212);
+}
+
+.krCellText {
+    padding: 5px;
+    box-sizing: border-box;
+    white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.krSelectionHeader {
+  position: absolute;
+    top: 11px; 
+    left: 6px;
+}
+input[type="checkbox"] {
+  margin: 0;
+  padding: 0;
+}
+input {
+  vertical-align:top;
+}
+.krSelectionCell{
+  margin-top: 9px;
+  margin-left: 6px;
+}
+.krNoSort {
+    cursor:default;
+}
+
+/******** Footer ********/
+.krFooterPanel{
+    background-color: rgb(234, 234, 234);
+    padding: 0;
+  border-top: 1px solid rgb(212,212,212);
+  position: relative;
+}
+.krTotalSelectContainer {
+    float: left;
+    margin: 5px;
+    margin-top: 7px;
+}
+.krFooterSelectedItems {
+  padding: 2px;
+}
+.krFooterTotalItems {
+  padding: 2px;
+}
+.krFooterTotalItems.krnoMultiSelect {
+    padding: 0 !important;
+}
+
+/* Aggregates */
+.krAggHeader {
+    position: absolute;
+    border: none;
+}
+.krAggregate {
+    position: absolute;
+    background-color: rgb(179, 191, 188);
+    border-bottom: 1px solid beige;
+    overflow: hidden;
+    top: 0;
+    bottom: 0;
+    right: -1px;
+  left: 0;
+}
+.krAggregateText {
+    position: absolute;
+    left: 27px;
+  top: 5px;
+    line-height: 20px;
+    white-space:nowrap;
+}
+.krAggArrowExpanded {
+    position: absolute;
+    left: 8px;
+    bottom: 10px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 9px 9px;
+    border-color: transparent transparent #000000 transparent;
+}
+.krAggArrowCollapsed {
+    position: absolute;
+    left: 8px;
+    bottom: 10px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 0 5px 8.7px;
+    border-color: transparent transparent transparent #000000;
+}
+
+.krHeaderButton {
+    position: absolute;    
+    right: 2px;
+    top: 8px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    z-index: 5;
+    background-color: rgb(179, 191, 188);
+    cursor: pointer;
+}
+.krHeaderButtonArrow {
+    position: absolute;
+    top: 4px;
+    left: 3px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6.5px 4.5px 0 4.5px;
+    border-color: #000 transparent transparent transparent;
+}
+.krSectionMenu {
+    right: 2px;
+    padding: 5px;
+    top: 25px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #BDD0CB;
+    position: absolute;
+    border: 2px solid rgb(212,212,212);
+    z-index: 5;
+}
+.krMenuText {
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+.krSectionList {
+    list-style-type: none;
+}
+
+.krSectionListItem {
+    position: relative;
+    right: 17px;
+    top: 2px;
+    white-space:nowrap;
+}
+.krSectionListCheckbox {
+    position: relative;
+    right: 3px;
+    top: 4px;
+}
+
+.krExpandIconBorder {
+  font-size: x-large;
+  background-color: #4F81BD;
+  border-color: #2F4D71;
+  border-width: 2px;
+}
+
+.krExpandIconColor {
+  font-size: x-large;
+  color: #2F4D71;
+}
+
+.krWarningIconColor {
+  font-size: x-large;
+  color: #FFB85C;
+}
+
+.krInfoIconColor {
+  font-size: x-large;
+  color: #3fd6ff;
+}
+
+.krGroupedByIcon {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAANCAYAAACZ3F9/AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjEwMPRyoQAAAElJREFUKFNjoAhISkr+R8LyaHwMDNXGwGBsbPwfhoGAA5mPDUO1oWpE52PDYE0gALTFAYbR+dgwWBMIoPlh1I9ADNU2NPzIwAAAFQYI9E4OLvEAAAAASUVORK5CYII=);
+  background-repeat:no-repeat;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    right: -2px;
+    top: 2px;
+}
+
+.krGroupingNumber {
+    position: absolute;
+    right: -10px;
+    top: -2px;
+}
+/* my change */
+.krGroupIcon,.krGroupedByIcon{
+    right: -18px; 
+}
+
+.krSectionExpanded {
+  display : block;
+}
+
+.krSectionCollapsed {
+  display: none;
+}
+
+.krSummaryExpanded {
+  display : block;
+}
+
+.krSummaryCollapsed {
+  display: none;
+}
+
+.krDetailsCollapsed {
+  display: none;
+}
+
+.krDetailsExpanded {
+  display : block;
+}
+
+.krHeaderTitle {
+    font-size: x-large;
+    padding: 3px 10px;
+    margin-left: 0;
+    margin-top: 2px;
+    font-weight: bold;
+}
+
+.krReportName {
+    background-color: #615066;
+    color: #FFFFFF;
+    font-size: x-large;
+    border: #615066;
+    padding: 3px 10px;
+    margin-left: 0;
+    margin-top: 2px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.h3Class {
+    background-color: #86816a;
+    color: #FFFFFF;
+    font-size: x-large;
+    border: 1px solid rgb(212,212,212);
+    padding: 3px 10px;
+    margin-left: 0;
+    margin-top: 2px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.rdfIcon {
+  width:30px;
+  height:30px;
+}
+</style>

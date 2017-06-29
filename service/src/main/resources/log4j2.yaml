@@ -1,0 +1,29 @@
+Configuration:
+  name: DownloaderLogYAML
+
+  Properties:
+    Property:
+      name: log-path
+      value: "logs"
+
+  ThresholdFilter:
+    level: debug
+
+  Appenders:
+
+    Console:
+      name: Console_Appender
+      target: SYSTEM_OUT
+      PatternLayout:
+        Pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n"
+  Loggers:
+    Logger:
+      - name: com.dskow
+        level: debug
+        additivity: false
+        AppenderRef:
+          ref: Console_Appender
+    Root:
+      level: debug
+      AppenderRef:
+        ref: Console_Appender

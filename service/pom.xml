@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+     http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<parent>
+		<groupId>com.dskow</groupId>
+		<artifactId>downloader</artifactId>
+		<version>1.0</version>
+		<relativePath>../pom.xml</relativePath>
+	</parent>
+
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>downloader-server</artifactId>
+	<packaging>jar</packaging>
+	<name>JournalDoc Downloader Service (JDS) (server)</name>
+
+	<properties>
+		<root-path>${basedir}/..</root-path>
+		<java.version>1.8</java.version>
+		<maven.compiler.source>${java.version}</maven.compiler.source>
+		<maven.compiler.target>${java.version}</maven.compiler.target>
+		<start-class>com.dskow.downloader.service.jds.Application</start-class>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<swagger-codegen-target-path>jds/server/</swagger-codegen-target-path>
+	</properties>
+
+	<dependencies>
+		<!-- downloader dependencies -->
+		<dependency>
+			<groupId>com.dskow</groupId>
+			<artifactId>downloader-logging</artifactId>
+			<version>${downloader.version}</version>
+			<scope>compile</scope>
+			<type>pom</type>
+		</dependency>
+
+		<dependency>
+			<groupId>com.dskow</groupId>
+			<artifactId>downloader-common-models</artifactId>
+			<version>${downloader.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.dskow</groupId>
+			<artifactId>downloader-jdd-client</artifactId>
+			<version>${downloader.version}</version>
+		</dependency>
+
+		<!--Spring Boot dependencies -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-mongodb</artifactId>
+            <exclusions>
+            	<exclusion>
+            		<groupId>org.slf4j</groupId>
+            		<artifactId>jcl-over-slf4j</artifactId>
+            	</exclusion>
+            </exclusions>
+        </dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+
+		<!--Spring boom omx dependencies -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-oxm</artifactId>
+		</dependency>
+
+		<dependency>
+		    <groupId>org.springframework</groupId>
+		    <artifactId>spring-jms</artifactId>
+		</dependency>
+
+		<!--SpringFox dependencies -->
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger2</artifactId>
+			<version>${springfox.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger-ui</artifactId>
+			<version>${springfox.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.fasterxml.jackson.datatype</groupId>
+			<artifactId>jackson-datatype-joda</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>joda-time</groupId>
+			<artifactId>joda-time</artifactId>
+		</dependency>
+
+		<!-- root logging implementation: log4j2 -->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-logging</groupId>
+			<artifactId>commons-logging</artifactId>
+			<version>1.1.1</version>
+		</dependency>
+		<!-- log4j2 API -->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-api</artifactId>
+		</dependency>
+
+
+		<!-- Bean Validation API support -->
+		<dependency>
+			<groupId>javax.validation</groupId>
+			<artifactId>validation-api</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
+		<!-- Test -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+	</dependencies>
+
+
+	<build>
+		<sourceDirectory>src/main/java</sourceDirectory>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<version>${spring-boot.version}</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>repackage</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+
+	<profiles>
+		<profile>
+			<id>buildswagger</id>
+			<build>
+				<plugins>
+
+					<!-- autogenerates the client stub -->
+					<plugin>
+						<groupId>org.codehaus.mojo</groupId>
+						<artifactId>exec-maven-plugin</artifactId>
+						<version>${exec.maven.plugin.version}</version>
+
+						<executions>
+							<execution>
+								<id>generate-jds-server-code</id>
+								<phase>generate-sources</phase>
+
+								<!-- TODO: figure out the invalid generic << >> character issue -->
+								<goals>
+									<goal>java</goal>
+								</goals>
+							</execution>
+						</executions>
+
+						<configuration>
+							<includeProjectDependencies>false</includeProjectDependencies>
+							<includePluginDependencies>true</includePluginDependencies>
+
+							<mainClass>io.swagger.codegen.SwaggerCodegen</mainClass>
+							<!-- see https://github.com/swagger-api/swagger-codegen/wiki/Server-stub-generator-HOWTO#java-springboot -->
+							<arguments>
+								<!-- <argument>help</argument> <argument>generate</argument> -->
+								<argument>generate</argument>
+								<!--<argument>jds.swagger.json</argument> -->
+								<argument>-i</argument>
+								<argument>${root-path}/service/src/main/resources/jds.swagger.json</argument>
+								<argument>-l</argument>
+								<argument>spring</argument>
+								<argument>-o</argument>
+								<argument>${root-path}/service/target/${swagger-codegen-target-path}</argument>
+							</arguments>
+						</configuration>
+
+						<dependencies>
+							<dependency>
+								<groupId>io.swagger</groupId>
+								<artifactId>swagger-codegen-cli</artifactId>
+								<version>${swagger-codegen.version}</version>
+								<type>jar</type>
+							</dependency>
+						</dependencies>
+
+					</plugin>
+
+					<!-- attaches the autogenerated server stub source to the build -->
+					<plugin>
+						<groupId>org.codehaus.mojo</groupId>
+						<artifactId>build-helper-maven-plugin</artifactId>
+						<version>${mojo-build-plugin.version}</version>
+						<executions>
+							<execution>
+								<id>add-source</id>
+								<phase>generate-sources</phase>
+								<goals>
+									<goal>add-source</goal>
+								</goals>
+								<configuration>
+									<sources>
+										<source>target/${swagger-codegen-target-path}/src/main/java</source>
+									</sources>
+								</configuration>
+							</execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
+</project>

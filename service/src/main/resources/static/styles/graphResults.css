@@ -1,0 +1,23 @@
+ul
+{
+    list-style-type: none;
+}
+.triple li {
+   display: table-cell;
+   width: 33.333333333%;  /* (100 / numItems)% */
+   text-align: center;
+   background: #ddd;
+   border-right: 1px solid #fff;
+   white-space: nowrap;
+}
+.triple {
+    display: table;
+    width: 100%;
+}
+.triple span {
+   max-width:100px;
+   display:block;
+}
+.triple a {
+   max-width:100px;
+}

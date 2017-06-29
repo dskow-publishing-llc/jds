@@ -1,0 +1,40 @@
+# dskow configuration section
+dskow:
+  cors:
+    origins:
+      - ${origin1:http://localhost:8080}
+      - ${origin2:http://localhost:8080}
+      - ${origin3:http://localhost:8080}
+      - ${origin4:http://localhost:8080}
+# spring configuration section
+spring:
+  datasource:
+    driverClassName: ${mdriver:com.mongodb.Mongo}
+  data:
+    mongodb:
+      uri: mongodb://${monhost:localhost}:${monport:27017}/${mondb:test}
+  jersey:
+    type: filter
+    
+  jackson:
+    date-format: com.dskow.downloader.service.jds.RFC3339DateFormat
+    serialization:
+      WRITE_DATES_AS_TIMESTAMPS: false
+# downloader configuration section
+jdd:
+  endpoint: ${jddep:http://eutils.ncbi.nlm.nih.gov}
+jds:
+  endpoint: ${jdsep:http://localhost:8080/v1}
+  storage:
+    location: ${jdsloc:C:/apache/webapps/data/}
+webcallTimeoutMs: ${wcto:300000}
+# the rest of the config
+server:
+  port: ${port:8080}
+  contextPath: /v1
+
+springfox:
+  documentation:
+    swagger:
+      v2:
+        path: /api-docs

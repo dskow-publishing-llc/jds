@@ -1,0 +1,86 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+     http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<parent>
+		<groupId>com.dskow</groupId>
+		<artifactId>downloader</artifactId>
+		<version>1.0</version>
+	</parent>
+
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>downloader-logging</artifactId>
+	<packaging>pom</packaging>
+	<name>JournalDoc Downloader Logging Dependencies</name>
+
+	<properties>
+		<!-- this is a relative path to the base of the project and should be defined 
+			in each module file paths used within the project build scripts should always 
+			start with ${root-path} -->
+		<root-path>${basedir}/..</root-path>
+	</properties>
+
+
+	<dependencies>
+
+		<!-- Logging graph: * = not included as dependencies in this pom ** = included 
+			with jre [log4j2 impl] [log4j2 api] [slf4j2 bridge] [java util logging bridge] 
+			**[java util logging] [commons-logging bridge] *[commons-logging] -->
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter</artifactId>
+			<exclusions>
+				<exclusion>
+					<groupId>org.springframework.boot</groupId>
+					<artifactId>spring-boot-starter-logging</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+
+		<!-- root logging implementation: log4j2 -->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+		</dependency>
+
+		<!-- log4j2 API -->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-api</artifactId>
+		</dependency>
+
+		<!-- [commons logging : slf4j] bindings -->
+		<!-- <dependency> <groupId>org.slf4j</groupId> <artifactId>jcl-over-slf4j</artifactId> 
+			<version>${slf4j.version}</version> </dependency> -->
+
+		<!-- [java util logging : slf4j] bindings -->
+		<!-- <dependency> <groupId>org.slf4j</groupId> <artifactId>jul-to-slf4j</artifactId> 
+			<version>${slf4j.version}</version> </dependency> -->
+
+		<!-- [slf4j : log4j2] bindings -->
+		<!-- <dependency> <groupId>org.apache.logging.log4j</groupId> <artifactId>log4j-slf4j-impl</artifactId> 
+			<version>${log4j2.version}</version> </dependency> -->
+
+		<!-- for log4j2 yaml configuration files -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.dataformat</groupId>
+			<artifactId>jackson-dataformat-yaml</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+		</dependency>
+	</dependencies>
+
+
+	<build>
+		<plugins>
+		</plugins>
+
+	</build>
+
+
+
+</project>

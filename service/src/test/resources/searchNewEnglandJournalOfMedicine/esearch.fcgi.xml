@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE eSearchResult PUBLIC "-//NLM//DTD esearch 20060628//EN" "http://eutils.ncbi.nlm.nih.gov/eutils/dtd/20060628/esearch.dtd">
+<eSearchResult><Count>7771</Count><RetMax>20</RetMax><RetStart>0</RetStart><IdList>
+<Id>25950269</Id>
+<Id>25946304</Id>
+<Id>25946303</Id>
+<Id>25946302</Id>
+<Id>25946301</Id>
+<Id>25946300</Id>
+<Id>25946299</Id>
+<Id>25946298</Id>
+<Id>25946297</Id>
+<Id>25946296</Id>
+<Id>25946295</Id>
+<Id>25946294</Id>
+<Id>25946293</Id>
+<Id>25946292</Id>
+<Id>25946291</Id>
+<Id>25946290</Id>
+<Id>25946289</Id>
+<Id>25946288</Id>
+<Id>25946287</Id>
+<Id>25946286</Id>
+</IdList><TranslationSet><Translation>     <From>New England Journal of Medicine[journal]</From>     <To>"N Engl J Med"[Journal]</To>    </Translation></TranslationSet><TranslationStack>   <TermSet>    <Term>"N Engl J Med"[Journal]</Term>    <Field>Journal</Field>    <Count>71621</Count>    <Explode>N</Explode>   </TermSet>   <TermSet>    <Term>2010[PDAT]</Term>    <Field>PDAT</Field>    <Count>0</Count>    <Explode>N</Explode>   </TermSet>   <TermSet>    <Term>2016[PDAT]</Term>    <Field>PDAT</Field>    <Count>0</Count>    <Explode>N</Explode>   </TermSet>   <OP>RANGE</OP>   <OP>AND</OP>  </TranslationStack><QueryTranslation>"N Engl J Med"[Journal] AND 2010[PDAT] : 2016[PDAT]</QueryTranslation></eSearchResult>

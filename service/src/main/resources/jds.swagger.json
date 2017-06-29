@@ -1,0 +1,508 @@
+{
+	"swagger": "2.0",
+	"info": {
+		"description": "This is an journal doc downloader server",
+		"version": "1.0.0",
+		"title": "JournalDoc Downloader API",
+		"contact": {
+			"name": "David Skowronski",
+			"url": "http://www.dskow.com",
+			"email": "david@dskow.com"
+		},
+		"license": {
+			"name": "MIT",
+			"url": "https://opensource.org/licenses/MIT"
+		}
+	},
+	"host": "localhost:8080",
+	"basePath": "/v1",
+	"tags": [
+		{
+			"name": "home-controller",
+			"description": "Home Controller"
+		},
+		{
+			"name": "journal-doc-downloader-service",
+			"description": "the journalDocDownloaderService API"
+		},
+		{
+			"name": "default-api-controller",
+			"description": "the default API"
+		}
+	],
+	"paths": {
+		"/": {
+			"get": {
+				"tags": [
+					"home-controller"
+				],
+				"summary": "index",
+				"operationId": "indexUsingGET",
+				"consumes": [
+					"application/json"
+				],
+				"produces": [
+					"*/*"
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "string"
+						}
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					}
+				}
+			},
+			"head": {
+				"tags": [
+					"home-controller"
+				],
+				"summary": "index",
+				"operationId": "indexUsingHEAD",
+				"consumes": [
+					"application/json"
+				],
+				"produces": [
+					"*/*"
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "string"
+						}
+					},
+					"204": {
+						"description": "No Content"
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					}
+				}
+			},
+			"post": {
+				"tags": [
+					"home-controller"
+				],
+				"summary": "index",
+				"operationId": "indexUsingPOST",
+				"consumes": [
+					"application/json"
+				],
+				"produces": [
+					"*/*"
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "string"
+						}
+					},
+					"201": {
+						"description": "Created"
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					}
+				}
+			},
+			"put": {
+				"tags": [
+					"home-controller"
+				],
+				"summary": "index",
+				"operationId": "indexUsingPUT",
+				"consumes": [
+					"application/json"
+				],
+				"produces": [
+					"*/*"
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "string"
+						}
+					},
+					"201": {
+						"description": "Created"
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					},
+					"404": {
+						"description": "Not Found"
+					}
+				}
+			},
+			"delete": {
+				"tags": [
+					"home-controller"
+				],
+				"summary": "index",
+				"operationId": "indexUsingDELETE",
+				"consumes": [
+					"application/json"
+				],
+				"produces": [
+					"*/*"
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "string"
+						}
+					},
+					"204": {
+						"description": "No Content"
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					}
+				}
+			},
+			"options": {
+				"tags": [
+					"home-controller"
+				],
+				"summary": "index",
+				"operationId": "indexUsingOPTIONS",
+				"consumes": [
+					"application/json"
+				],
+				"produces": [
+					"*/*"
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "string"
+						}
+					},
+					"204": {
+						"description": "No Content"
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					}
+				}
+			},
+			"patch": {
+				"tags": [
+					"home-controller"
+				],
+				"summary": "index",
+				"operationId": "indexUsingPATCH",
+				"consumes": [
+					"application/json"
+				],
+				"produces": [
+					"*/*"
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "string"
+						}
+					},
+					"204": {
+						"description": "No Content"
+					},
+					"401": {
+						"description": "Unauthorized"
+					},
+					"403": {
+						"description": "Forbidden"
+					}
+				}
+			}
+		},
+		"/jds/files": {
+			"get": {
+				"tags": [
+					"JDD"
+				],
+				"summary": "gets all xml files",
+				"description": "gets all xml files. ",
+				"operationId": "jdsFilesUsingGETUsingGET",
+				"consumes": [
+					"application/json"
+				],
+				"produces": [
+					"application/xml"
+				],
+				"responses": {
+					"200": {
+						"description": "xml file data",
+						"schema": {
+							"$ref": "#/definitions/JournalEntity"
+						}
+					},
+					"401": {
+						"description": "Unauthorized",
+						"schema": {
+							"$ref": "#/definitions/JournalEntity"
+						}
+					},
+					"403": {
+						"description": "Forbidden",
+						"schema": {
+							"$ref": "#/definitions/JournalEntity"
+						}
+					},
+					"404": {
+						"description": "Not Found",
+						"schema": {
+							"$ref": "#/definitions/JournalEntity"
+						}
+					}
+				}
+			}
+		},
+		"/jds/pings": {
+			"get": {
+				"tags": [
+					"JDD"
+				],
+				"summary": "get server's current epoch time in millis",
+				"description": "get server's current epoch time in millis. ",
+				"operationId": "jdsPingsUsingGETUsingGET",
+				"consumes": [
+					"application/json"
+				],
+				"produces": [
+					"application/json"
+				],
+				"responses": {
+					"200": {
+						"description": "The current epoch time in millis",
+						"schema": {
+							"type": "string"
+						}
+					},
+					"401": {
+						"description": "Unauthorized",
+						"schema": {
+							"type": "string"
+						}
+					},
+					"403": {
+						"description": "Forbidden",
+						"schema": {
+							"type": "string"
+						}
+					},
+					"404": {
+						"description": "Not Found",
+						"schema": {
+							"type": "string"
+						}
+					}
+				}
+			}
+		},
+		"/jds/queries": {
+			"get": {
+				"tags": [
+					"JDD"
+				],
+				"summary": "gets all queries",
+				"description": "gets all queries. ",
+				"operationId": "jdsQueriesUsingGETUsingGET",
+				"consumes": [
+					"application/json"
+				],
+				"produces": [
+					"application/json"
+				],
+				"responses": {
+					"200": {
+						"description": "query data",
+						"schema": {
+							"$ref": "#/definitions/QueryInfoEntity"
+						}
+					},
+					"401": {
+						"description": "Unauthorized",
+						"schema": {
+							"$ref": "#/definitions/QueryInfoEntity"
+						}
+					},
+					"403": {
+						"description": "Forbidden",
+						"schema": {
+							"$ref": "#/definitions/QueryInfoEntity"
+						}
+					},
+					"404": {
+						"description": "Not Found",
+						"schema": {
+							"$ref": "#/definitions/QueryInfoEntity"
+						}
+					}
+				}
+			},
+			"post": {
+				"tags": [
+					"JDD"
+				],
+				"summary": "creates a query",
+				"description": "creates an query. ",
+				"operationId": "jdsQueriesUsingPOSTUsingPOST",
+				"consumes": [
+					"application/json"
+				],
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"in": "body",
+						"name": "body",
+						"description": "query detail",
+						"required": true,
+						"schema": {
+							"$ref": "#/definitions/QueryInfoEntity"
+						}
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "query data",
+						"schema": {
+							"$ref": "#/definitions/QueryInfoEntity"
+						}
+					},
+					"201": {
+						"description": "Created"
+					},
+					"401": {
+						"description": "Unauthorized",
+						"schema": {
+							"$ref": "#/definitions/QueryInfoEntity"
+						}
+					},
+					"403": {
+						"description": "Forbidden",
+						"schema": {
+							"$ref": "#/definitions/QueryInfoEntity"
+						}
+					},
+					"404": {
+						"description": "Not Found",
+						"schema": {
+							"$ref": "#/definitions/QueryInfoEntity"
+						}
+					}
+				}
+			}
+		}
+	},
+	"definitions": {
+		"JournalEntity": {
+			"type": "object",
+			"properties": {
+				"content": {
+					"type": "string",
+					"description": "info."
+				},
+				"id": {
+					"type": "string",
+					"description": "The journal type."
+				},
+				"language": {
+					"type": "string",
+					"description": "The journal type."
+				},
+				"name": {
+					"type": "string",
+					"description": "The journal name."
+				}
+			}
+		},
+		"QueryInfoEntity": {
+			"type": "object",
+			"properties": {
+				"content": {
+					"type": "string",
+					"description": "info."
+				},
+				"count": {
+					"type": "integer",
+					"format": "int32",
+					"description": "count."
+				},
+				"error": {
+					"type": "string",
+					"description": "error."
+				},
+				"fetchItems": {
+					"type": "array",
+					"description": "fetchItems.",
+					"items": {
+						"type": "string"
+					}
+				},
+				"id": {
+					"type": "string",
+					"description": "The queryInfo type."
+				},
+				"language": {
+					"type": "string",
+					"description": "The queryInfo type."
+				},
+				"name": {
+					"type": "string",
+					"description": "The queryInfo name."
+				},
+				"retMax": {
+					"type": "integer",
+					"format": "int32",
+					"description": "retMax."
+				},
+				"status": {
+					"type": "string",
+					"description": "status.",
+					"enum": [
+						"Queued",
+						"InProgress",
+						"Complete",
+						"Failed"
+					]
+				}
+			}
+		}
+	}
+}

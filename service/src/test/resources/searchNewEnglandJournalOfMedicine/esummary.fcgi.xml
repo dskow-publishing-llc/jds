@@ -1,0 +1,989 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE eSummaryResult PUBLIC "-//NLM//DTD esummary v1 20060131//EN" "http://eutils.ncbi.nlm.nih.gov/eutils/dtd/20060131/esummary-v1.dtd">
+<eSummaryResult>
+<DocSum>
+	<Id>25950269</Id>
+	<Item Name="PubDate" Type="Date">2015 May 7</Item>
+	<Item Name="EPubDate" Type="Date">2015 May 7</Item>
+	<Item Name="Source" Type="String">N Engl J Med</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Varkey JB</Item>
+		<Item Name="Author" Type="String">Shantha JG</Item>
+		<Item Name="Author" Type="String">Crozier I</Item>
+		<Item Name="Author" Type="String">Kraft CS</Item>
+		<Item Name="Author" Type="String">Lyon GM</Item>
+		<Item Name="Author" Type="String">Mehta AK</Item>
+		<Item Name="Author" Type="String">Kumar G</Item>
+		<Item Name="Author" Type="String">Smith JR</Item>
+		<Item Name="Author" Type="String">Kainulainen MH</Item>
+		<Item Name="Author" Type="String">Whitmer S</Item>
+		<Item Name="Author" Type="String">Ströher U</Item>
+		<Item Name="Author" Type="String">Uyeki TM</Item>
+		<Item Name="Author" Type="String">Ribner BS</Item>
+		<Item Name="Author" Type="String">Yeh S</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Yeh S</Item>
+	<Item Name="Title" Type="String">Persistence of Ebola Virus in Ocular Fluid during Convalescence.</Item>
+	<Item Name="Volume" Type="String"/>
+	<Item Name="Issue" Type="String"/>
+	<Item Name="Pages" Type="String"/>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">0255562</Item>
+	<Item Name="ISSN" Type="String">0028-4793</Item>
+	<Item Name="ESSN" Type="String">1533-4406</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - as supplied by publisher</Item>
+	<Item Name="PubStatus" Type="String">aheadofprint</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="doi" Type="String">10.1056/NEJMoa1500306</Item>
+		<Item Name="pubmed" Type="String">25950269</Item>
+		<Item Name="eid" Type="String">25950269</Item>
+		<Item Name="rid" Type="String">25950269</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1056/NEJMoa1500306</Item>
+	<Item Name="History" Type="List">
+		<Item Name="entrez" Type="Date">2015/05/08 06:00</Item>
+		<Item Name="pubmed" Type="Date">2015/05/08 06:00</Item>
+		<Item Name="medline" Type="Date">2015/05/08 06:00</Item>
+	</Item>
+	<Item Name="References" Type="List"/>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">0</Item>
+	<Item Name="FullJournalName" Type="String">The New England journal of medicine</Item>
+	<Item Name="ELocationID" Type="String"/>
+	<Item Name="SO" Type="String">2015 May 7;</Item>
+</DocSum>
+
+<DocSum>
+	<Id>25946304</Id>
+	<Item Name="PubDate" Type="Date">2015 May 7</Item>
+	<Item Name="EPubDate" Type="Date"/>
+	<Item Name="Source" Type="String">N Engl J Med</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Albores J</Item>
+		<Item Name="Author" Type="String">Wang T</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Wang T</Item>
+	<Item Name="Title" Type="String">Images in clinical medicine. Trapped lung.</Item>
+	<Item Name="Volume" Type="String">372</Item>
+	<Item Name="Issue" Type="String">19</Item>
+	<Item Name="Pages" Type="String">e25</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">0255562</Item>
+	<Item Name="ISSN" Type="String">0028-4793</Item>
+	<Item Name="ESSN" Type="String">1533-4406</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - in process</Item>
+	<Item Name="PubStatus" Type="String">ppublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="doi" Type="String">10.1056/NEJMicm1404964</Item>
+		<Item Name="pubmed" Type="String">25946304</Item>
+		<Item Name="eid" Type="String">25946304</Item>
+		<Item Name="rid" Type="String">25946304</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1056/NEJMicm1404964</Item>
+	<Item Name="History" Type="List">
+		<Item Name="entrez" Type="Date">2015/05/07 06:00</Item>
+		<Item Name="pubmed" Type="Date">2015/05/07 06:00</Item>
+		<Item Name="medline" Type="Date">2015/05/07 06:00</Item>
+	</Item>
+	<Item Name="References" Type="List"/>
+	<Item Name="HasAbstract" Type="Integer">0</Item>
+	<Item Name="PmcRefCount" Type="Integer">0</Item>
+	<Item Name="FullJournalName" Type="String">The New England journal of medicine</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1056/NEJMicm1404964</Item>
+	<Item Name="SO" Type="String">2015 May 7;372(19):e25</Item>
+</DocSum>
+
+<DocSum>
+	<Id>25946303</Id>
+	<Item Name="PubDate" Type="Date">2015 May 7</Item>
+	<Item Name="EPubDate" Type="Date"/>
+	<Item Name="Source" Type="String">N Engl J Med</Item>
+	<Item Name="AuthorList" Type="List"/>
+	<Item Name="LastAuthor" Type="String"/>
+	<Item Name="Title" Type="String">Medicare's step back from global payments--unbundling postoperative care.</Item>
+	<Item Name="Volume" Type="String">372</Item>
+	<Item Name="Issue" Type="String">19</Item>
+	<Item Name="Pages" Type="String">1874</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">0255562</Item>
+	<Item Name="ISSN" Type="String">0028-4793</Item>
+	<Item Name="ESSN" Type="String">1533-4406</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Published Erratum</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed</Item>
+	<Item Name="PubStatus" Type="String">ppublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="doi" Type="String">10.1056/NEJMx150018</Item>
+		<Item Name="pubmed" Type="String">25946303</Item>
+		<Item Name="eid" Type="String">25946303</Item>
+		<Item Name="rid" Type="String">25946303</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1056/NEJMx150018</Item>
+	<Item Name="History" Type="List">
+		<Item Name="entrez" Type="Date">2015/05/07 06:00</Item>
+		<Item Name="pubmed" Type="Date">2015/05/07 06:00</Item>
+		<Item Name="medline" Type="Date">2015/05/07 06:01</Item>
+	</Item>
+	<Item Name="References" Type="List">
+		<Item Name="Erratum for" Type="String">N Engl J Med. 2015 Apr 9;372(15):1385-7. PMID: 25853742</Item>
+	</Item>
+	<Item Name="HasAbstract" Type="Integer">0</Item>
+	<Item Name="PmcRefCount" Type="Integer">0</Item>
+	<Item Name="FullJournalName" Type="String">The New England journal of medicine</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1056/NEJMx150018</Item>
+	<Item Name="SO" Type="String">2015 May 7;372(19):1874</Item>
+</DocSum>
+
+<DocSum>
+	<Id>25946302</Id>
+	<Item Name="PubDate" Type="Date">2015 May 7</Item>
+	<Item Name="EPubDate" Type="Date"/>
+	<Item Name="Source" Type="String">N Engl J Med</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Schuster MA</Item>
+		<Item Name="Author" Type="String">Bogart LM</Item>
+		<Item Name="Author" Type="String">Elliott MN</Item>
+		<Item Name="Author" Type="String">Klein DJ</Item>
+		<Item Name="Author" Type="String">Feng JY</Item>
+		<Item Name="Author" Type="String">Tortolero SR</Item>
+		<Item Name="Author" Type="String">Mrug S</Item>
+		<Item Name="Author" Type="String">Lewis TH</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Lewis TH</Item>
+	<Item Name="Title" Type="String">A longitudinal study of bullying of sexual-minority youth.</Item>
+	<Item Name="Volume" Type="String">372</Item>
+	<Item Name="Issue" Type="String">19</Item>
+	<Item Name="Pages" Type="String">1872-4</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">0255562</Item>
+	<Item Name="ISSN" Type="String">0028-4793</Item>
+	<Item Name="ESSN" Type="String">1533-4406</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Letter</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - in process</Item>
+	<Item Name="PubStatus" Type="String">ppublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="doi" Type="String">10.1056/NEJMc1413064</Item>
+		<Item Name="pubmed" Type="String">25946302</Item>
+		<Item Name="eid" Type="String">25946302</Item>
+		<Item Name="rid" Type="String">25946302</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1056/NEJMc1413064</Item>
+	<Item Name="History" Type="List">
+		<Item Name="entrez" Type="Date">2015/05/07 06:00</Item>
+		<Item Name="pubmed" Type="Date">2015/05/07 06:00</Item>
+		<Item Name="medline" Type="Date">2015/05/07 06:00</Item>
+	</Item>
+	<Item Name="References" Type="List"/>
+	<Item Name="HasAbstract" Type="Integer">0</Item>
+	<Item Name="PmcRefCount" Type="Integer">0</Item>
+	<Item Name="FullJournalName" Type="String">The New England journal of medicine</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1056/NEJMc1413064</Item>
+	<Item Name="SO" Type="String">2015 May 7;372(19):1872-4</Item>
+</DocSum>
+
+<DocSum>
+	<Id>25946301</Id>
+	<Item Name="PubDate" Type="Date">2015 May 7</Item>
+	<Item Name="EPubDate" Type="Date"/>
+	<Item Name="Source" Type="String">N Engl J Med</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Kane JP</Item>
+		<Item Name="Author" Type="String">Malloy MJ</Item>
+		<Item Name="Author" Type="String">Pullinger CR</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Pullinger CR</Item>
+	<Item Name="Title" Type="String">HDL cholesterol efflux capacity and cardiovascular events.</Item>
+	<Item Name="Volume" Type="String">372</Item>
+	<Item Name="Issue" Type="String">19</Item>
+	<Item Name="Pages" Type="String">1871</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">0255562</Item>
+	<Item Name="ISSN" Type="String">0028-4793</Item>
+	<Item Name="ESSN" Type="String">1533-4406</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Comment</Item>
+		<Item Name="PubType" Type="String">Letter</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="doi" Type="String">10.1056/NEJMc1503139#SA4</Item>
+		<Item Name="pubmed" Type="String">25946301</Item>
+		<Item Name="eid" Type="String">25946301</Item>
+		<Item Name="rid" Type="String">25946301</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1056/NEJMc1503139#SA4</Item>
+	<Item Name="History" Type="List">
+		<Item Name="entrez" Type="Date">2015/05/07 06:00</Item>
+		<Item Name="pubmed" Type="Date">2015/05/07 06:00</Item>
+		<Item Name="medline" Type="Date">2015/05/12 06:00</Item>
+	</Item>
+	<Item Name="References" Type="List">
+		<Item Name="Comment on" Type="String">N Engl J Med. 2014 Dec 18;371(25):2383-93. PMID: 25404125</Item>
+		<Item Name="Comment in" Type="String">N Engl J Med. 2015 May 7;372(19):1871-2. PMID: 25946297</Item>
+	</Item>
+	<Item Name="HasAbstract" Type="Integer">0</Item>
+	<Item Name="PmcRefCount" Type="Integer">0</Item>
+	<Item Name="FullJournalName" Type="String">The New England journal of medicine</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1056/NEJMc1503139#SA4</Item>
+	<Item Name="SO" Type="String">2015 May 7;372(19):1871</Item>
+</DocSum>
+
+<DocSum>
+	<Id>25946300</Id>
+	<Item Name="PubDate" Type="Date">2015 May 7</Item>
+	<Item Name="EPubDate" Type="Date"/>
+	<Item Name="Source" Type="String">N Engl J Med</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Ritsch A</Item>
+		<Item Name="Author" Type="String">Scharnagl H</Item>
+		<Item Name="Author" Type="String">März W</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">März W</Item>
+	<Item Name="Title" Type="String">HDL cholesterol efflux capacity and cardiovascular events.</Item>
+	<Item Name="Volume" Type="String">372</Item>
+	<Item Name="Issue" Type="String">19</Item>
+	<Item Name="Pages" Type="String">1870-1</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">0255562</Item>
+	<Item Name="ISSN" Type="String">0028-4793</Item>
+	<Item Name="ESSN" Type="String">1533-4406</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Comment</Item>
+		<Item Name="PubType" Type="String">Letter</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="doi" Type="String">10.1056/NEJMc1503139#SA3</Item>
+		<Item Name="pubmed" Type="String">25946300</Item>
+		<Item Name="eid" Type="String">25946300</Item>
+		<Item Name="rid" Type="String">25946300</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1056/NEJMc1503139#SA3</Item>
+	<Item Name="History" Type="List">
+		<Item Name="entrez" Type="Date">2015/05/07 06:00</Item>
+		<Item Name="pubmed" Type="Date">2015/05/07 06:00</Item>
+		<Item Name="medline" Type="Date">2015/05/12 06:00</Item>
+	</Item>
+	<Item Name="References" Type="List">
+		<Item Name="Comment on" Type="String">N Engl J Med. 2014 Dec 18;371(25):2383-93. PMID: 25404125</Item>
+		<Item Name="Comment in" Type="String">N Engl J Med. 2015 May 7;372(19):1871-2. PMID: 25946297</Item>
+	</Item>
+	<Item Name="HasAbstract" Type="Integer">0</Item>
+	<Item Name="PmcRefCount" Type="Integer">0</Item>
+	<Item Name="FullJournalName" Type="String">The New England journal of medicine</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1056/NEJMc1503139#SA3</Item>
+	<Item Name="SO" Type="String">2015 May 7;372(19):1870-1</Item>
+</DocSum>
+
+<DocSum>
+	<Id>25946299</Id>
+	<Item Name="PubDate" Type="Date">2015 May 7</Item>
+	<Item Name="EPubDate" Type="Date"/>
+	<Item Name="Source" Type="String">N Engl J Med</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Kopecky C</Item>
+		<Item Name="Author" Type="String">Weichhart T</Item>
+		<Item Name="Author" Type="String">Säemann MD</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Säemann MD</Item>
+	<Item Name="Title" Type="String">HDL cholesterol efflux capacity and cardiovascular events.</Item>
+	<Item Name="Volume" Type="String">372</Item>
+	<Item Name="Issue" Type="String">19</Item>
+	<Item Name="Pages" Type="String">1869</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">0255562</Item>
+	<Item Name="ISSN" Type="String">0028-4793</Item>
+	<Item Name="ESSN" Type="String">1533-4406</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Comment</Item>
+		<Item Name="PubType" Type="String">Letter</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="doi" Type="String">10.1056/NEJMc1503139#SA2</Item>
+		<Item Name="pubmed" Type="String">25946299</Item>
+		<Item Name="eid" Type="String">25946299</Item>
+		<Item Name="rid" Type="String">25946299</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1056/NEJMc1503139#SA2</Item>
+	<Item Name="History" Type="List">
+		<Item Name="entrez" Type="Date">2015/05/07 06:00</Item>
+		<Item Name="pubmed" Type="Date">2015/05/07 06:00</Item>
+		<Item Name="medline" Type="Date">2015/05/12 06:00</Item>
+	</Item>
+	<Item Name="References" Type="List">
+		<Item Name="Comment on" Type="String">N Engl J Med. 2014 Dec 18;371(25):2383-93. PMID: 25404125</Item>
+		<Item Name="Comment in" Type="String">N Engl J Med. 2015 May 7;372(19):1871-2. PMID: 25946297</Item>
+	</Item>
+	<Item Name="HasAbstract" Type="Integer">0</Item>
+	<Item Name="PmcRefCount" Type="Integer">0</Item>
+	<Item Name="FullJournalName" Type="String">The New England journal of medicine</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1056/NEJMc1503139#SA2</Item>
+	<Item Name="SO" Type="String">2015 May 7;372(19):1869</Item>
+</DocSum>
+
+<DocSum>
+	<Id>25946298</Id>
+	<Item Name="PubDate" Type="Date">2015 May 7</Item>
+	<Item Name="EPubDate" Type="Date"/>
+	<Item Name="Source" Type="String">N Engl J Med</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Peters MN</Item>
+		<Item Name="Author" Type="String">Brook RD</Item>
+		<Item Name="Author" Type="String">Rajagopalan S</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Rajagopalan S</Item>
+	<Item Name="Title" Type="String">HDL cholesterol efflux capacity and cardiovascular events.</Item>
+	<Item Name="Volume" Type="String">372</Item>
+	<Item Name="Issue" Type="String">19</Item>
+	<Item Name="Pages" Type="String">1869</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">0255562</Item>
+	<Item Name="ISSN" Type="String">0028-4793</Item>
+	<Item Name="ESSN" Type="String">1533-4406</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Comment</Item>
+		<Item Name="PubType" Type="String">Letter</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="doi" Type="String">10.1056/NEJMc1503139#SA1</Item>
+		<Item Name="pubmed" Type="String">25946298</Item>
+		<Item Name="eid" Type="String">25946298</Item>
+		<Item Name="rid" Type="String">25946298</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1056/NEJMc1503139#SA1</Item>
+	<Item Name="History" Type="List">
+		<Item Name="entrez" Type="Date">2015/05/07 06:00</Item>
+		<Item Name="pubmed" Type="Date">2015/05/07 06:00</Item>
+		<Item Name="medline" Type="Date">2015/05/12 06:00</Item>
+	</Item>
+	<Item Name="References" Type="List">
+		<Item Name="Comment on" Type="String">N Engl J Med. 2014 Dec 18;371(25):2383-93. PMID: 25404125</Item>
+		<Item Name="Comment in" Type="String">N Engl J Med. 2015 May 7;372(19):1871-2. PMID: 25946297</Item>
+	</Item>
+	<Item Name="HasAbstract" Type="Integer">0</Item>
+	<Item Name="PmcRefCount" Type="Integer">0</Item>
+	<Item Name="FullJournalName" Type="String">The New England journal of medicine</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1056/NEJMc1503139#SA1</Item>
+	<Item Name="SO" Type="String">2015 May 7;372(19):1869</Item>
+</DocSum>
+
+<DocSum>
+	<Id>25946297</Id>
+	<Item Name="PubDate" Type="Date">2015 May 7</Item>
+	<Item Name="EPubDate" Type="Date"/>
+	<Item Name="Source" Type="String">N Engl J Med</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Rohatgi A</Item>
+		<Item Name="Author" Type="String">de Lemos JA</Item>
+		<Item Name="Author" Type="String">Shaul PW</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Shaul PW</Item>
+	<Item Name="Title" Type="String">HDL cholesterol efflux capacity and cardiovascular events.</Item>
+	<Item Name="Volume" Type="String">372</Item>
+	<Item Name="Issue" Type="String">19</Item>
+	<Item Name="Pages" Type="String">1871-2</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">0255562</Item>
+	<Item Name="ISSN" Type="String">0028-4793</Item>
+	<Item Name="ESSN" Type="String">1533-4406</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Comment</Item>
+		<Item Name="PubType" Type="String">Letter</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="doi" Type="String">10.1056/NEJMc1503139</Item>
+		<Item Name="pubmed" Type="String">25946297</Item>
+		<Item Name="eid" Type="String">25946297</Item>
+		<Item Name="rid" Type="String">25946297</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1056/NEJMc1503139</Item>
+	<Item Name="History" Type="List">
+		<Item Name="entrez" Type="Date">2015/05/07 06:00</Item>
+		<Item Name="pubmed" Type="Date">2015/05/07 06:00</Item>
+		<Item Name="medline" Type="Date">2015/05/12 06:00</Item>
+	</Item>
+	<Item Name="References" Type="List">
+		<Item Name="Comment on" Type="String">N Engl J Med. 2015 May 7;372(19):1869. PMID: 25946298</Item>
+		<Item Name="Comment on" Type="String">N Engl J Med. 2015 May 7;372(19):1869. PMID: 25946299</Item>
+		<Item Name="Comment on" Type="String">N Engl J Med. 2014 Dec 18;371(25):2383-93. PMID: 25404125</Item>
+		<Item Name="Comment on" Type="String">N Engl J Med. 2015 May 7;372(19):1870-1. PMID: 25946300</Item>
+		<Item Name="Comment on" Type="String">N Engl J Med. 2015 May 7;372(19):1871. PMID: 25946301</Item>
+	</Item>
+	<Item Name="HasAbstract" Type="Integer">0</Item>
+	<Item Name="PmcRefCount" Type="Integer">0</Item>
+	<Item Name="FullJournalName" Type="String">The New England journal of medicine</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1056/NEJMc1503139</Item>
+	<Item Name="SO" Type="String">2015 May 7;372(19):1871-2</Item>
+</DocSum>
+
+<DocSum>
+	<Id>25946296</Id>
+	<Item Name="PubDate" Type="Date">2015 May 7</Item>
+	<Item Name="EPubDate" Type="Date"/>
+	<Item Name="Source" Type="String">N Engl J Med</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Lee HJ</Item>
+		<Item Name="Author" Type="String">Yun HJ</Item>
+		<Item Name="Author" Type="String">Kim S</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Kim S</Item>
+	<Item Name="Title" Type="String">Lenvatinib in radioiodine-refractory thyroid cancer.</Item>
+	<Item Name="Volume" Type="String">372</Item>
+	<Item Name="Issue" Type="String">19</Item>
+	<Item Name="Pages" Type="String">1868</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">0255562</Item>
+	<Item Name="ISSN" Type="String">0028-4793</Item>
+	<Item Name="ESSN" Type="String">1533-4406</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Comment</Item>
+		<Item Name="PubType" Type="String">Letter</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="doi" Type="String">10.1056/NEJMc1503150#SA1</Item>
+		<Item Name="pubmed" Type="String">25946296</Item>
+		<Item Name="eid" Type="String">25946296</Item>
+		<Item Name="rid" Type="String">25946296</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1056/NEJMc1503150#SA1</Item>
+	<Item Name="History" Type="List">
+		<Item Name="entrez" Type="Date">2015/05/07 06:00</Item>
+		<Item Name="pubmed" Type="Date">2015/05/07 06:00</Item>
+		<Item Name="medline" Type="Date">2015/05/12 06:00</Item>
+	</Item>
+	<Item Name="References" Type="List">
+		<Item Name="Comment on" Type="String">N Engl J Med. 2015 Feb 12;372(7):621-30. PMID: 25671254</Item>
+		<Item Name="Comment in" Type="String">N Engl J Med. 2015 May 7;372(19):1868. PMID: 25946295</Item>
+	</Item>
+	<Item Name="HasAbstract" Type="Integer">0</Item>
+	<Item Name="PmcRefCount" Type="Integer">0</Item>
+	<Item Name="FullJournalName" Type="String">The New England journal of medicine</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1056/NEJMc1503150#SA1</Item>
+	<Item Name="SO" Type="String">2015 May 7;372(19):1868</Item>
+</DocSum>
+
+<DocSum>
+	<Id>25946295</Id>
+	<Item Name="PubDate" Type="Date">2015 May 7</Item>
+	<Item Name="EPubDate" Type="Date"/>
+	<Item Name="Source" Type="String">N Engl J Med</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Schlumberger M</Item>
+		<Item Name="Author" Type="String">Tahara M</Item>
+		<Item Name="Author" Type="String">Wirth LJ</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Wirth LJ</Item>
+	<Item Name="Title" Type="String">Lenvatinib in radioiodine-refractory thyroid cancer.</Item>
+	<Item Name="Volume" Type="String">372</Item>
+	<Item Name="Issue" Type="String">19</Item>
+	<Item Name="Pages" Type="String">1868</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">0255562</Item>
+	<Item Name="ISSN" Type="String">0028-4793</Item>
+	<Item Name="ESSN" Type="String">1533-4406</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Comment</Item>
+		<Item Name="PubType" Type="String">Letter</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="doi" Type="String">10.1056/NEJMc1503150</Item>
+		<Item Name="pubmed" Type="String">25946295</Item>
+		<Item Name="eid" Type="String">25946295</Item>
+		<Item Name="rid" Type="String">25946295</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1056/NEJMc1503150</Item>
+	<Item Name="History" Type="List">
+		<Item Name="entrez" Type="Date">2015/05/07 06:00</Item>
+		<Item Name="pubmed" Type="Date">2015/05/07 06:00</Item>
+		<Item Name="medline" Type="Date">2015/05/12 06:00</Item>
+	</Item>
+	<Item Name="References" Type="List">
+		<Item Name="Comment on" Type="String">N Engl J Med. 2015 May 7;372(19):1868. PMID: 25946296</Item>
+		<Item Name="Comment on" Type="String">N Engl J Med. 2015 Feb 12;372(7):621-30. PMID: 25671254</Item>
+	</Item>
+	<Item Name="HasAbstract" Type="Integer">0</Item>
+	<Item Name="PmcRefCount" Type="Integer">0</Item>
+	<Item Name="FullJournalName" Type="String">The New England journal of medicine</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1056/NEJMc1503150</Item>
+	<Item Name="SO" Type="String">2015 May 7;372(19):1868</Item>
+</DocSum>
+
+<DocSum>
+	<Id>25946294</Id>
+	<Item Name="PubDate" Type="Date">2015 May 7</Item>
+	<Item Name="EPubDate" Type="Date"/>
+	<Item Name="Source" Type="String">N Engl J Med</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Armengol G</Item>
+		<Item Name="Author" Type="String">Faisant C</Item>
+		<Item Name="Author" Type="String">Benhamou Y</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Benhamou Y</Item>
+	<Item Name="Title" Type="String">Icatibant in ACE-inhibitor-induced angioedema.</Item>
+	<Item Name="Volume" Type="String">372</Item>
+	<Item Name="Issue" Type="String">19</Item>
+	<Item Name="Pages" Type="String">1867</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">0255562</Item>
+	<Item Name="ISSN" Type="String">0028-4793</Item>
+	<Item Name="ESSN" Type="String">1533-4406</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Comment</Item>
+		<Item Name="PubType" Type="String">Letter</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="doi" Type="String">10.1056/NEJMc1503671#SA3</Item>
+		<Item Name="pubmed" Type="String">25946294</Item>
+		<Item Name="eid" Type="String">25946294</Item>
+		<Item Name="rid" Type="String">25946294</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1056/NEJMc1503671#SA3</Item>
+	<Item Name="History" Type="List">
+		<Item Name="entrez" Type="Date">2015/05/07 06:00</Item>
+		<Item Name="pubmed" Type="Date">2015/05/07 06:00</Item>
+		<Item Name="medline" Type="Date">2015/05/12 06:00</Item>
+	</Item>
+	<Item Name="References" Type="List">
+		<Item Name="Comment on" Type="String">N Engl J Med. 2015 Jan 29;372(5):418-25. PMID: 25629740</Item>
+		<Item Name="Comment in" Type="String">N Engl J Med. 2015 May 7;372(19):1867-8. PMID: 25946291</Item>
+	</Item>
+	<Item Name="HasAbstract" Type="Integer">0</Item>
+	<Item Name="PmcRefCount" Type="Integer">0</Item>
+	<Item Name="FullJournalName" Type="String">The New England journal of medicine</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1056/NEJMc1503671#SA3</Item>
+	<Item Name="SO" Type="String">2015 May 7;372(19):1867</Item>
+</DocSum>
+
+<DocSum>
+	<Id>25946293</Id>
+	<Item Name="PubDate" Type="Date">2015 May 7</Item>
+	<Item Name="EPubDate" Type="Date"/>
+	<Item Name="Source" Type="String">N Engl J Med</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Soo Hoo GW</Item>
+		<Item Name="Author" Type="String">Klaustermeyer WB</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Klaustermeyer WB</Item>
+	<Item Name="Title" Type="String">Icatibant in ACE-inhibitor-induced angioedema.</Item>
+	<Item Name="Volume" Type="String">372</Item>
+	<Item Name="Issue" Type="String">19</Item>
+	<Item Name="Pages" Type="String">1866</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">0255562</Item>
+	<Item Name="ISSN" Type="String">0028-4793</Item>
+	<Item Name="ESSN" Type="String">1533-4406</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Comment</Item>
+		<Item Name="PubType" Type="String">Letter</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="doi" Type="String">10.1056/NEJMc1503671#SA2</Item>
+		<Item Name="pubmed" Type="String">25946293</Item>
+		<Item Name="eid" Type="String">25946293</Item>
+		<Item Name="rid" Type="String">25946293</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1056/NEJMc1503671#SA2</Item>
+	<Item Name="History" Type="List">
+		<Item Name="entrez" Type="Date">2015/05/07 06:00</Item>
+		<Item Name="pubmed" Type="Date">2015/05/07 06:00</Item>
+		<Item Name="medline" Type="Date">2015/05/12 06:00</Item>
+	</Item>
+	<Item Name="References" Type="List">
+		<Item Name="Comment on" Type="String">N Engl J Med. 2015 Jan 29;372(5):418-25. PMID: 25629740</Item>
+		<Item Name="Comment in" Type="String">N Engl J Med. 2015 May 7;372(19):1867-8. PMID: 25946291</Item>
+	</Item>
+	<Item Name="HasAbstract" Type="Integer">0</Item>
+	<Item Name="PmcRefCount" Type="Integer">0</Item>
+	<Item Name="FullJournalName" Type="String">The New England journal of medicine</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1056/NEJMc1503671#SA2</Item>
+	<Item Name="SO" Type="String">2015 May 7;372(19):1866</Item>
+</DocSum>
+
+<DocSum>
+	<Id>25946292</Id>
+	<Item Name="PubDate" Type="Date">2015 May 7</Item>
+	<Item Name="EPubDate" Type="Date"/>
+	<Item Name="Source" Type="String">N Engl J Med</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Tomkiewicz W</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Tomkiewicz W</Item>
+	<Item Name="Title" Type="String">Icatibant in ACE-inhibitor-induced angioedema.</Item>
+	<Item Name="Volume" Type="String">372</Item>
+	<Item Name="Issue" Type="String">19</Item>
+	<Item Name="Pages" Type="String">1866</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">0255562</Item>
+	<Item Name="ISSN" Type="String">0028-4793</Item>
+	<Item Name="ESSN" Type="String">1533-4406</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Comment</Item>
+		<Item Name="PubType" Type="String">Letter</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="doi" Type="String">10.1056/NEJMc1503671#SA1</Item>
+		<Item Name="pubmed" Type="String">25946292</Item>
+		<Item Name="eid" Type="String">25946292</Item>
+		<Item Name="rid" Type="String">25946292</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1056/NEJMc1503671#SA1</Item>
+	<Item Name="History" Type="List">
+		<Item Name="entrez" Type="Date">2015/05/07 06:00</Item>
+		<Item Name="pubmed" Type="Date">2015/05/07 06:00</Item>
+		<Item Name="medline" Type="Date">2015/05/12 06:00</Item>
+	</Item>
+	<Item Name="References" Type="List">
+		<Item Name="Comment on" Type="String">N Engl J Med. 2015 Jan 29;372(5):418-25. PMID: 25629740</Item>
+		<Item Name="Comment in" Type="String">N Engl J Med. 2015 May 7;372(19):1867-8. PMID: 25946291</Item>
+	</Item>
+	<Item Name="HasAbstract" Type="Integer">0</Item>
+	<Item Name="PmcRefCount" Type="Integer">0</Item>
+	<Item Name="FullJournalName" Type="String">The New England journal of medicine</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1056/NEJMc1503671#SA1</Item>
+	<Item Name="SO" Type="String">2015 May 7;372(19):1866</Item>
+</DocSum>
+
+<DocSum>
+	<Id>25946291</Id>
+	<Item Name="PubDate" Type="Date">2015 May 7</Item>
+	<Item Name="EPubDate" Type="Date"/>
+	<Item Name="Source" Type="String">N Engl J Med</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Baş M</Item>
+		<Item Name="Author" Type="String">Hoffmann TK</Item>
+		<Item Name="Author" Type="String">Kojda G</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Kojda G</Item>
+	<Item Name="Title" Type="String">Icatibant in ACE-inhibitor-induced angioedema.</Item>
+	<Item Name="Volume" Type="String">372</Item>
+	<Item Name="Issue" Type="String">19</Item>
+	<Item Name="Pages" Type="String">1867-8</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">0255562</Item>
+	<Item Name="ISSN" Type="String">0028-4793</Item>
+	<Item Name="ESSN" Type="String">1533-4406</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Comment</Item>
+		<Item Name="PubType" Type="String">Letter</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="doi" Type="String">10.1056/NEJMc1503671</Item>
+		<Item Name="pubmed" Type="String">25946291</Item>
+		<Item Name="eid" Type="String">25946291</Item>
+		<Item Name="rid" Type="String">25946291</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1056/NEJMc1503671</Item>
+	<Item Name="History" Type="List">
+		<Item Name="entrez" Type="Date">2015/05/07 06:00</Item>
+		<Item Name="pubmed" Type="Date">2015/05/07 06:00</Item>
+		<Item Name="medline" Type="Date">2015/05/12 06:00</Item>
+	</Item>
+	<Item Name="References" Type="List">
+		<Item Name="Comment on" Type="String">N Engl J Med. 2015 Jan 29;372(5):418-25. PMID: 25629740</Item>
+		<Item Name="Comment on" Type="String">N Engl J Med. 2015 May 7;372(19):1866. PMID: 25946292</Item>
+		<Item Name="Comment on" Type="String">N Engl J Med. 2015 May 7;372(19):1867. PMID: 25946294</Item>
+		<Item Name="Comment on" Type="String">N Engl J Med. 2015 May 7;372(19):1866. PMID: 25946293</Item>
+	</Item>
+	<Item Name="HasAbstract" Type="Integer">0</Item>
+	<Item Name="PmcRefCount" Type="Integer">0</Item>
+	<Item Name="FullJournalName" Type="String">The New England journal of medicine</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1056/NEJMc1503671</Item>
+	<Item Name="SO" Type="String">2015 May 7;372(19):1867-8</Item>
+</DocSum>
+
+<DocSum>
+	<Id>25946290</Id>
+	<Item Name="PubDate" Type="Date">2015 May 7</Item>
+	<Item Name="EPubDate" Type="Date"/>
+	<Item Name="Source" Type="String">N Engl J Med</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Delhommeau F</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Delhommeau F</Item>
+	<Item Name="Title" Type="String">Effect of mutation order on myeloproliferative neoplasms.</Item>
+	<Item Name="Volume" Type="String">372</Item>
+	<Item Name="Issue" Type="String">19</Item>
+	<Item Name="Pages" Type="String">1865</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">0255562</Item>
+	<Item Name="ISSN" Type="String">0028-4793</Item>
+	<Item Name="ESSN" Type="String">1533-4406</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Comment</Item>
+		<Item Name="PubType" Type="String">Letter</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="doi" Type="String">10.1056/NEJMc1503143#SA1</Item>
+		<Item Name="pubmed" Type="String">25946290</Item>
+		<Item Name="eid" Type="String">25946290</Item>
+		<Item Name="rid" Type="String">25946290</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1056/NEJMc1503143#SA1</Item>
+	<Item Name="History" Type="List">
+		<Item Name="entrez" Type="Date">2015/05/07 06:00</Item>
+		<Item Name="pubmed" Type="Date">2015/05/07 06:00</Item>
+		<Item Name="medline" Type="Date">2015/05/12 06:00</Item>
+	</Item>
+	<Item Name="References" Type="List">
+		<Item Name="Comment on" Type="String">N Engl J Med. 2015 Feb 12;372(7):601-12. PMID: 25671252</Item>
+		<Item Name="Comment in" Type="String">N Engl J Med. 2015 May 7;372(19):1865-6. PMID: 25946289</Item>
+	</Item>
+	<Item Name="HasAbstract" Type="Integer">0</Item>
+	<Item Name="PmcRefCount" Type="Integer">0</Item>
+	<Item Name="FullJournalName" Type="String">The New England journal of medicine</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1056/NEJMc1503143#SA1</Item>
+	<Item Name="SO" Type="String">2015 May 7;372(19):1865</Item>
+</DocSum>
+
+<DocSum>
+	<Id>25946289</Id>
+	<Item Name="PubDate" Type="Date">2015 May 7</Item>
+	<Item Name="EPubDate" Type="Date"/>
+	<Item Name="Source" Type="String">N Engl J Med</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Kent DG</Item>
+		<Item Name="Author" Type="String">Ortmann CA</Item>
+		<Item Name="Author" Type="String">Green AR</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Green AR</Item>
+	<Item Name="Title" Type="String">Effect of mutation order on myeloproliferative neoplasms.</Item>
+	<Item Name="Volume" Type="String">372</Item>
+	<Item Name="Issue" Type="String">19</Item>
+	<Item Name="Pages" Type="String">1865-6</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">0255562</Item>
+	<Item Name="ISSN" Type="String">0028-4793</Item>
+	<Item Name="ESSN" Type="String">1533-4406</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Comment</Item>
+		<Item Name="PubType" Type="String">Letter</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="doi" Type="String">10.1056/NEJMc1503143</Item>
+		<Item Name="pubmed" Type="String">25946289</Item>
+		<Item Name="eid" Type="String">25946289</Item>
+		<Item Name="rid" Type="String">25946289</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1056/NEJMc1503143</Item>
+	<Item Name="History" Type="List">
+		<Item Name="entrez" Type="Date">2015/05/07 06:00</Item>
+		<Item Name="pubmed" Type="Date">2015/05/07 06:00</Item>
+		<Item Name="medline" Type="Date">2015/05/12 06:00</Item>
+	</Item>
+	<Item Name="References" Type="List">
+		<Item Name="Comment on" Type="String">N Engl J Med. 2015 May 7;372(19):1865. PMID: 25946290</Item>
+		<Item Name="Comment on" Type="String">N Engl J Med. 2015 Feb 12;372(7):601-12. PMID: 25671252</Item>
+	</Item>
+	<Item Name="HasAbstract" Type="Integer">0</Item>
+	<Item Name="PmcRefCount" Type="Integer">0</Item>
+	<Item Name="FullJournalName" Type="String">The New England journal of medicine</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1056/NEJMc1503143</Item>
+	<Item Name="SO" Type="String">2015 May 7;372(19):1865-6</Item>
+</DocSum>
+
+<DocSum>
+	<Id>25946288</Id>
+	<Item Name="PubDate" Type="Date">2015 May 7</Item>
+	<Item Name="EPubDate" Type="Date"/>
+	<Item Name="Source" Type="String">N Engl J Med</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Rosenbaum L</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Rosenbaum L</Item>
+	<Item Name="Title" Type="String">Reconnecting the dots--reinterpreting industry-physician relations.</Item>
+	<Item Name="Volume" Type="String">372</Item>
+	<Item Name="Issue" Type="String">19</Item>
+	<Item Name="Pages" Type="String">1860-4</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">0255562</Item>
+	<Item Name="ISSN" Type="String">0028-4793</Item>
+	<Item Name="ESSN" Type="String">1533-4406</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - in process</Item>
+	<Item Name="PubStatus" Type="String">ppublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="doi" Type="String">10.1056/NEJMms1502493</Item>
+		<Item Name="pubmed" Type="String">25946288</Item>
+		<Item Name="eid" Type="String">25946288</Item>
+		<Item Name="rid" Type="String">25946288</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1056/NEJMms1502493</Item>
+	<Item Name="History" Type="List">
+		<Item Name="entrez" Type="Date">2015/05/07 06:00</Item>
+		<Item Name="pubmed" Type="Date">2015/05/07 06:00</Item>
+		<Item Name="medline" Type="Date">2015/05/07 06:00</Item>
+	</Item>
+	<Item Name="References" Type="List"/>
+	<Item Name="HasAbstract" Type="Integer">0</Item>
+	<Item Name="PmcRefCount" Type="Integer">0</Item>
+	<Item Name="FullJournalName" Type="String">The New England journal of medicine</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1056/NEJMms1502493</Item>
+	<Item Name="SO" Type="String">2015 May 7;372(19):1860-4</Item>
+</DocSum>
+
+<DocSum>
+	<Id>25946287</Id>
+	<Item Name="PubDate" Type="Date">2015 May 7</Item>
+	<Item Name="EPubDate" Type="Date"/>
+	<Item Name="Source" Type="String">N Engl J Med</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Hamel MB</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Hamel MB</Item>
+	<Item Name="Title" Type="String">Investing in better care for patients dying in nursing homes.</Item>
+	<Item Name="Volume" Type="String">372</Item>
+	<Item Name="Issue" Type="String">19</Item>
+	<Item Name="Pages" Type="String">1858-9</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">0255562</Item>
+	<Item Name="ISSN" Type="String">0028-4793</Item>
+	<Item Name="ESSN" Type="String">1533-4406</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Comment</Item>
+		<Item Name="PubType" Type="String">Editorial</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="doi" Type="String">10.1056/NEJMe1502735</Item>
+		<Item Name="pubmed" Type="String">25946287</Item>
+		<Item Name="eid" Type="String">25946287</Item>
+		<Item Name="rid" Type="String">25946287</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1056/NEJMe1502735</Item>
+	<Item Name="History" Type="List">
+		<Item Name="entrez" Type="Date">2015/05/07 06:00</Item>
+		<Item Name="pubmed" Type="Date">2015/05/07 06:00</Item>
+		<Item Name="medline" Type="Date">2015/05/12 06:00</Item>
+	</Item>
+	<Item Name="References" Type="List">
+		<Item Name="Comment on" Type="String">N Engl J Med. 2015 May 7;372(19):1823-31. PMID: 25946281</Item>
+	</Item>
+	<Item Name="HasAbstract" Type="Integer">0</Item>
+	<Item Name="PmcRefCount" Type="Integer">0</Item>
+	<Item Name="FullJournalName" Type="String">The New England journal of medicine</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1056/NEJMe1502735</Item>
+	<Item Name="SO" Type="String">2015 May 7;372(19):1858-9</Item>
+</DocSum>
+
+<DocSum>
+	<Id>25946286</Id>
+	<Item Name="PubDate" Type="Date">2015 May 7</Item>
+	<Item Name="EPubDate" Type="Date"/>
+	<Item Name="Source" Type="String">N Engl J Med</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Marlow N</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Marlow N</Item>
+	<Item Name="Title" Type="String">The elephant in the delivery room.</Item>
+	<Item Name="Volume" Type="String">372</Item>
+	<Item Name="Issue" Type="String">19</Item>
+	<Item Name="Pages" Type="String">1856-7</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">0255562</Item>
+	<Item Name="ISSN" Type="String">0028-4793</Item>
+	<Item Name="ESSN" Type="String">1533-4406</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Comment</Item>
+		<Item Name="PubType" Type="String">Editorial</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="doi" Type="String">10.1056/NEJMe1502250</Item>
+		<Item Name="pubmed" Type="String">25946286</Item>
+		<Item Name="eid" Type="String">25946286</Item>
+		<Item Name="rid" Type="String">25946286</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1056/NEJMe1502250</Item>
+	<Item Name="History" Type="List">
+		<Item Name="entrez" Type="Date">2015/05/07 06:00</Item>
+		<Item Name="pubmed" Type="Date">2015/05/07 06:00</Item>
+		<Item Name="medline" Type="Date">2015/05/12 06:00</Item>
+	</Item>
+	<Item Name="References" Type="List">
+		<Item Name="Comment on" Type="String">N Engl J Med. 2015 May 7;372(19):1801-11. PMID: 25946279</Item>
+	</Item>
+	<Item Name="HasAbstract" Type="Integer">0</Item>
+	<Item Name="PmcRefCount" Type="Integer">0</Item>
+	<Item Name="FullJournalName" Type="String">The New England journal of medicine</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1056/NEJMe1502250</Item>
+	<Item Name="SO" Type="String">2015 May 7;372(19):1856-7</Item>
+</DocSum>
+
+</eSummaryResult>

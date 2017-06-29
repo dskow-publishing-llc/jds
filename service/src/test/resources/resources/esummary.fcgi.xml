@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE eSummaryResult PUBLIC "-//NLM//DTD esummary v1 20060131//EN" "esummary-v1.dtd">
+<eSummaryResult>
+<DocSum>
+	<Id>19008416</Id>
+	<Item Name="PubDate" Type="Date">2008 Dec 12</Item>
+	<Item Name="EPubDate" Type="Date">2008 Nov 13</Item>
+	<Item Name="Source" Type="String">Science</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Varambally S</Item>
+		<Item Name="Author" Type="String">Cao Q</Item>
+		<Item Name="Author" Type="String">Mani RS</Item>
+		<Item Name="Author" Type="String">Shankar S</Item>
+		<Item Name="Author" Type="String">Wang X</Item>
+		<Item Name="Author" Type="String">Ateeq B</Item>
+		<Item Name="Author" Type="String">Laxman B</Item>
+		<Item Name="Author" Type="String">Cao X</Item>
+		<Item Name="Author" Type="String">Jing X</Item>
+		<Item Name="Author" Type="String">Ramnarayanan K</Item>
+		<Item Name="Author" Type="String">Brenner JC</Item>
+		<Item Name="Author" Type="String">Yu J</Item>
+		<Item Name="Author" Type="String">Kim JH</Item>
+		<Item Name="Author" Type="String">Han B</Item>
+		<Item Name="Author" Type="String">Tan P</Item>
+		<Item Name="Author" Type="String">Kumar-Sinha C</Item>
+		<Item Name="Author" Type="String">Lonigro RJ</Item>
+		<Item Name="Author" Type="String">Palanisamy N</Item>
+		<Item Name="Author" Type="String">Maher CA</Item>
+		<Item Name="Author" Type="String">Chinnaiyan AM</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Chinnaiyan AM</Item>
+	<Item Name="Title" Type="String">Genomic loss of microRNA-101 leads to overexpression of histone methyltransferase EZH2 in cancer.</Item>
+	<Item Name="Volume" Type="String">322</Item>
+	<Item Name="Issue" Type="String">5908</Item>
+	<Item Name="Pages" Type="String">1695-9</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">0404511</Item>
+	<Item Name="ISSN" Type="String">0036-8075</Item>
+	<Item Name="ESSN" Type="String">1095-9203</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish+epublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pii" Type="String">1165395</Item>
+		<Item Name="doi" Type="String">10.1126/science.1165395</Item>
+		<Item Name="pubmed" Type="String">19008416</Item>
+		<Item Name="pmc" Type="String">PMC2684823</Item>
+		<Item Name="mid" Type="String">NIHMS104414</Item>
+		<Item Name="eid" Type="String">19008416</Item>
+		<Item Name="rid" Type="String">19008416</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC2684823;manuscript-id: NIHMS104414;</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1126/science.1165395</Item>
+	<Item Name="History" Type="List">
+		<Item Name="aheadofprint" Type="Date">2008/11/13 00:00</Item>
+		<Item Name="entrez" Type="Date">2008/11/15 09:00</Item>
+		<Item Name="pubmed" Type="Date">2008/11/15 09:00</Item>
+		<Item Name="medline" Type="Date">2009/01/06 09:00</Item>
+	</Item>
+	<Item Name="References" Type="List"/>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">214</Item>
+	<Item Name="FullJournalName" Type="String">Science (New York, N.Y.)</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1126/science.1165395</Item>
+	<Item Name="SO" Type="String">2008 Dec 12;322(5908):1695-9</Item>
+</DocSum>
+
+<DocSum>
+	<Id>18927361</Id>
+	<Item Name="PubDate" Type="Date">2008 Oct 17</Item>
+	<Item Name="EPubDate" Type="Date"/>
+	<Item Name="Source" Type="String">Science</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Couzin J</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Couzin J</Item>
+	<Item Name="Title" Type="String">Genetics. DNA test for breast cancer risk draws criticism.</Item>
+	<Item Name="Volume" Type="String">322</Item>
+	<Item Name="Issue" Type="String">5900</Item>
+	<Item Name="Pages" Type="String">357</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">0404511</Item>
+	<Item Name="ISSN" Type="String">0036-8075</Item>
+	<Item Name="ESSN" Type="String">1095-9203</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">News</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pii" Type="String">322/5900/357</Item>
+		<Item Name="doi" Type="String">10.1126/science.322.5900.357</Item>
+		<Item Name="pubmed" Type="String">18927361</Item>
+		<Item Name="eid" Type="String">18927361</Item>
+		<Item Name="rid" Type="String">18927361</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1126/science.322.5900.357</Item>
+	<Item Name="History" Type="List">
+		<Item Name="pubmed" Type="Date">2008/10/18 09:00</Item>
+		<Item Name="medline" Type="Date">2008/11/04 09:00</Item>
+		<Item Name="entrez" Type="Date">2008/10/18 09:00</Item>
+	</Item>
+	<Item Name="References" Type="List"/>
+	<Item Name="HasAbstract" Type="Integer">0</Item>
+	<Item Name="PmcRefCount" Type="Integer">3</Item>
+	<Item Name="FullJournalName" Type="String">Science (New York, N.Y.)</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1126/science.322.5900.357</Item>
+	<Item Name="SO" Type="String">2008 Oct 17;322(5900):357</Item>
+</DocSum>
+
+<DocSum>
+	<Id>18787170</Id>
+	<Item Name="PubDate" Type="Date">2008 Sep 12</Item>
+	<Item Name="EPubDate" Type="Date"/>
+	<Item Name="Source" Type="String">Science</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Mao JH</Item>
+		<Item Name="Author" Type="String">Kim IJ</Item>
+		<Item Name="Author" Type="String">Wu D</Item>
+		<Item Name="Author" Type="String">Climent J</Item>
+		<Item Name="Author" Type="String">Kang HC</Item>
+		<Item Name="Author" Type="String">DelRosario R</Item>
+		<Item Name="Author" Type="String">Balmain A</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Balmain A</Item>
+	<Item Name="Title" Type="String">FBXW7 targets mTOR for degradation and cooperates with PTEN in tumor suppression.</Item>
+	<Item Name="Volume" Type="String">321</Item>
+	<Item Name="Issue" Type="String">5895</Item>
+	<Item Name="Pages" Type="String">1499-502</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">0404511</Item>
+	<Item Name="ISSN" Type="String">0036-8075</Item>
+	<Item Name="ESSN" Type="String">1095-9203</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pii" Type="String">321/5895/1499</Item>
+		<Item Name="doi" Type="String">10.1126/science.1162981</Item>
+		<Item Name="pubmed" Type="String">18787170</Item>
+		<Item Name="pmc" Type="String">PMC2849753</Item>
+		<Item Name="mid" Type="String">NIHMS132604</Item>
+		<Item Name="eid" Type="String">18787170</Item>
+		<Item Name="rid" Type="String">18787170</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC2849753;manuscript-id: NIHMS132604;</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1126/science.1162981</Item>
+	<Item Name="History" Type="List">
+		<Item Name="pubmed" Type="Date">2008/09/13 09:00</Item>
+		<Item Name="medline" Type="Date">2008/09/26 09:00</Item>
+		<Item Name="entrez" Type="Date">2008/09/13 09:00</Item>
+	</Item>
+	<Item Name="References" Type="List"/>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">87</Item>
+	<Item Name="FullJournalName" Type="String">Science (New York, N.Y.)</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1126/science.1162981</Item>
+	<Item Name="SO" Type="String">2008 Sep 12;321(5895):1499-502</Item>
+</DocSum>
+
+<DocSum>
+	<Id>18487186</Id>
+	<Item Name="PubDate" Type="Date">2008 May 16</Item>
+	<Item Name="EPubDate" Type="Date"/>
+	<Item Name="Source" Type="String">Science</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Bromberg KD</Item>
+		<Item Name="Author" Type="String">Ma'ayan A</Item>
+		<Item Name="Author" Type="String">Neves SR</Item>
+		<Item Name="Author" Type="String">Iyengar R</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Iyengar R</Item>
+	<Item Name="Title" Type="String">Design logic of a cannabinoid receptor signaling network that triggers neurite outgrowth.</Item>
+	<Item Name="Volume" Type="String">320</Item>
+	<Item Name="Issue" Type="String">5878</Item>
+	<Item Name="Pages" Type="String">903-9</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">0404511</Item>
+	<Item Name="ISSN" Type="String">0036-8075</Item>
+	<Item Name="ESSN" Type="String">1095-9203</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pii" Type="String">320/5878/903</Item>
+		<Item Name="doi" Type="String">10.1126/science.1152662</Item>
+		<Item Name="pubmed" Type="String">18487186</Item>
+		<Item Name="pmc" Type="String">PMC2776723</Item>
+		<Item Name="mid" Type="String">NIHMS142954</Item>
+		<Item Name="eid" Type="String">18487186</Item>
+		<Item Name="rid" Type="String">18487186</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC2776723;manuscript-id: NIHMS142954;</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1126/science.1152662</Item>
+	<Item Name="History" Type="List">
+		<Item Name="pubmed" Type="Date">2008/05/20 09:00</Item>
+		<Item Name="medline" Type="Date">2008/05/28 09:00</Item>
+		<Item Name="entrez" Type="Date">2008/05/20 09:00</Item>
+	</Item>
+	<Item Name="References" Type="List"/>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">55</Item>
+	<Item Name="FullJournalName" Type="String">Science (New York, N.Y.)</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1126/science.1152662</Item>
+	<Item Name="SO" Type="String">2008 May 16;320(5878):903-9</Item>
+</DocSum>
+
+<DocSum>
+	<Id>18239126</Id>
+	<Item Name="PubDate" Type="Date">2008 Feb 1</Item>
+	<Item Name="EPubDate" Type="Date"/>
+	<Item Name="Source" Type="String">Science</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Schlabach MR</Item>
+		<Item Name="Author" Type="String">Luo J</Item>
+		<Item Name="Author" Type="String">Solimini NL</Item>
+		<Item Name="Author" Type="String">Hu G</Item>
+		<Item Name="Author" Type="String">Xu Q</Item>
+		<Item Name="Author" Type="String">Li MZ</Item>
+		<Item Name="Author" Type="String">Zhao Z</Item>
+		<Item Name="Author" Type="String">Smogorzewska A</Item>
+		<Item Name="Author" Type="String">Sowa ME</Item>
+		<Item Name="Author" Type="String">Ang XL</Item>
+		<Item Name="Author" Type="String">Westbrook TF</Item>
+		<Item Name="Author" Type="String">Liang AC</Item>
+		<Item Name="Author" Type="String">Chang K</Item>
+		<Item Name="Author" Type="String">Hackett JA</Item>
+		<Item Name="Author" Type="String">Harper JW</Item>
+		<Item Name="Author" Type="String">Hannon GJ</Item>
+		<Item Name="Author" Type="String">Elledge SJ</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Elledge SJ</Item>
+	<Item Name="Title" Type="String">Cancer proliferation gene discovery through functional genomics.</Item>
+	<Item Name="Volume" Type="String">319</Item>
+	<Item Name="Issue" Type="String">5863</Item>
+	<Item Name="Pages" Type="String">620-4</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">0404511</Item>
+	<Item Name="ISSN" Type="String">0036-8075</Item>
+	<Item Name="ESSN" Type="String">1095-9203</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pii" Type="String">319/5863/620</Item>
+		<Item Name="doi" Type="String">10.1126/science.1149200</Item>
+		<Item Name="pubmed" Type="String">18239126</Item>
+		<Item Name="pmc" Type="String">PMC2981870</Item>
+		<Item Name="mid" Type="String">NIHMS249937</Item>
+		<Item Name="eid" Type="String">18239126</Item>
+		<Item Name="rid" Type="String">18239126</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC2981870;manuscript-id: NIHMS249937;</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1126/science.1149200</Item>
+	<Item Name="History" Type="List">
+		<Item Name="pubmed" Type="Date">2008/02/02 09:00</Item>
+		<Item Name="medline" Type="Date">2008/02/13 09:00</Item>
+		<Item Name="entrez" Type="Date">2008/02/02 09:00</Item>
+	</Item>
+	<Item Name="References" Type="List">
+		<Item Name="Erratum in" Type="String">Science.2008 Apr 18;320(5874):316</Item>
+	</Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">130</Item>
+	<Item Name="FullJournalName" Type="String">Science (New York, N.Y.)</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1126/science.1149200</Item>
+	<Item Name="SO" Type="String">2008 Feb 1;319(5863):620-4</Item>
+</DocSum>
+
+<DocSum>
+	<Id>18239125</Id>
+	<Item Name="PubDate" Type="Date">2008 Feb 1</Item>
+	<Item Name="EPubDate" Type="Date"/>
+	<Item Name="Source" Type="String">Science</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Silva JM</Item>
+		<Item Name="Author" Type="String">Marran K</Item>
+		<Item Name="Author" Type="String">Parker JS</Item>
+		<Item Name="Author" Type="String">Silva J</Item>
+		<Item Name="Author" Type="String">Golding M</Item>
+		<Item Name="Author" Type="String">Schlabach MR</Item>
+		<Item Name="Author" Type="String">Elledge SJ</Item>
+		<Item Name="Author" Type="String">Hannon GJ</Item>
+		<Item Name="Author" Type="String">Chang K</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Chang K</Item>
+	<Item Name="Title" Type="String">Profiling essential genes in human mammary cells by multiplex RNAi screening.</Item>
+	<Item Name="Volume" Type="String">319</Item>
+	<Item Name="Issue" Type="String">5863</Item>
+	<Item Name="Pages" Type="String">617-20</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">0404511</Item>
+	<Item Name="ISSN" Type="String">0036-8075</Item>
+	<Item Name="ESSN" Type="String">1095-9203</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pii" Type="String">319/5863/617</Item>
+		<Item Name="doi" Type="String">10.1126/science.1149185</Item>
+		<Item Name="pubmed" Type="String">18239125</Item>
+		<Item Name="pmc" Type="String">PMC2981861</Item>
+		<Item Name="mid" Type="String">NIHMS249659</Item>
+		<Item Name="eid" Type="String">18239125</Item>
+		<Item Name="rid" Type="String">18239125</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC2981861;manuscript-id: NIHMS249659;</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1126/science.1149185</Item>
+	<Item Name="History" Type="List">
+		<Item Name="pubmed" Type="Date">2008/02/02 09:00</Item>
+		<Item Name="medline" Type="Date">2008/02/13 09:00</Item>
+		<Item Name="entrez" Type="Date">2008/02/02 09:00</Item>
+	</Item>
+	<Item Name="References" Type="List"/>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">102</Item>
+	<Item Name="FullJournalName" Type="String">Science (New York, N.Y.)</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1126/science.1149185</Item>
+	<Item Name="SO" Type="String">2008 Feb 1;319(5863):617-20</Item>
+</DocSum>
+
+</eSummaryResult>

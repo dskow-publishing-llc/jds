@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE eSearchResult PUBLIC "-//NLM//DTD esearch 20060628//EN" "http://eutils.ncbi.nlm.nih.gov/eutils/dtd/20060628/esearch.dtd">
+<eSearchResult><Count>6147</Count><RetMax>20</RetMax><RetStart>20</RetStart><IdList>
+<Id>25942723</Id>
+<Id>25942722</Id>
+<Id>25942721</Id>
+<Id>25942720</Id>
+<Id>25942719</Id>
+<Id>25942710</Id>
+<Id>25942709</Id>
+<Id>25942708</Id>
+<Id>25938875</Id>
+<Id>25938803</Id>
+<Id>25938759</Id>
+<Id>25928209</Id>
+<Id>25919540</Id>
+<Id>25919539</Id>
+<Id>25919537</Id>
+<Id>25919536</Id>
+<Id>25919535</Id>
+<Id>25919534</Id>
+<Id>25919533</Id>
+<Id>25919532</Id>
+</IdList><TranslationSet><Translation>     <From>Journal of the American Medical Association[journal]</From>     <To>"JAMA"[Journal] OR "J Am Med Assoc"[Journal]</To>    </Translation></TranslationSet><TranslationStack>   <TermSet>    <Term>"JAMA"[Journal]</Term>    <Field>Journal</Field>    <Count>66482</Count>    <Explode>N</Explode>   </TermSet>   <TermSet>    <Term>"J Am Med Assoc"[Journal]</Term>    <Field>Journal</Field>    <Count>10838</Count>    <Explode>N</Explode>   </TermSet>   <OP>OR</OP>   <OP>GROUP</OP>   <TermSet>    <Term>2010[PDAT]</Term>    <Field>PDAT</Field>    <Count>0</Count>    <Explode>N</Explode>   </TermSet>   <TermSet>    <Term>2016[PDAT]</Term>    <Field>PDAT</Field>    <Count>0</Count>    <Explode>N</Explode>   </TermSet>   <OP>RANGE</OP>   <OP>AND</OP>  </TranslationStack><QueryTranslation>("JAMA"[Journal] OR "J Am Med Assoc"[Journal]) AND 2010[PDAT] : 2016[PDAT]</QueryTranslation></eSearchResult>

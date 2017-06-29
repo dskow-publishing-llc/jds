@@ -1,0 +1,78 @@
+#!/bin/sh
+# Run jds as a standalone server
+
+export JDS_HOME="${JDS_HOME:-$PWD}"
+echo "$JDS_HOME"
+if [ ! -e "$JDS_HOME" ]
+then
+    echo "$JDS_HOME does not exist" 1>&2
+    exit 1
+fi
+
+JAR1="$JDS_HOME/jds-server.jar"
+JAR=""
+
+for J in "$JAR1"
+do
+    # Expand
+    J="$(echo $J)"
+    if [ -e "$J" ]
+    then
+        JAR="$J"
+        break
+    fi
+done
+
+if [ "$JAR" = "" ]
+then
+    echo "Can't find jarfile to run" 1>&2
+    exit 1
+fi
+
+# Deal with Cygwin path issues
+cygwin=false
+case "`uname`" in
+    CYGWIN*) cygwin=true;;
+esac
+if [ "$cygwin" = "true" ]
+then
+    JAR=`cygpath -w "$JAR"`
+    JDS_HOME=`cygpath -w "$JDS_HOME"`
+fi
+
+export JDS_BASE="${JDS_BASE:-$PWD/run}"
+
+if [ -z "$JAVA" ]
+then
+    if [ -z "$JAVA_HOME" ]
+    then
+       JAVA=$(which java)
+    else
+        JAVA=$JAVA_HOME/bin/java
+    fi
+fi
+
+if [ -z "$JAVA" ]
+then
+    (
+        echo "Cannot find a Java JDK."
+        echo "Please set either set JAVA or JAVA_HOME and put java (>=1.8) in your PATH."
+    ) 1>&2
+  exit 1
+fi
+
+JVM_ARGS=${JVM_ARGS:--Xmx1200M}
+
+exec $JAVA $JVM_ARGS -jar "$JAR" "$@"
+exec ngrok http $JDS_PORT
+
+## Adding custom code to the JDS server:
+##
+## It is also possible to launch JDS using
+##   java $JVM_ARGS -cp "$JAR" com.dskow.downloader.jds.Application "$@"
+##
+## "exec" is optional - it simply frees up an OS process.
+## In this way, you can add custom java to the classpath:
+##
+##   APPJAR=MyCode.jar
+##   java $JVM_ARGS -cp "$JAR:$APPJAR" com.dskow.downloader.jds.Application "$@"
